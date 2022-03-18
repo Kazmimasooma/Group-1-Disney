@@ -7,7 +7,7 @@ Building a recommendation system to suggest movies (genres) to users based on pr
 ## Data Collection / Identity Data Source
 
 Data Sources
-- Disney dataset: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+- Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset
 - Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
 - IMDB (or another) Ratings dataset: https://datasets.imdbws.com/
 

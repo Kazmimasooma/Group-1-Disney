@@ -3,9 +3,10 @@
 ## Overview / Decomposing the Ask
 
 Building a recommendation system to suggest movies (genres) to users based on preferences. ← This is really difficult because we also need to build:
-1. User input interface: ask user questions in order to see what the like. Can be decision tree version “Do you like animals?”
-1. Output interface: looks like a Netflix output system? Have to use Flask-Bootstrap.
-Therefore this can get complicated with the additional requirements above.
+* User input interface: ask user questions in order to see what the like. Can be decision tree version:  “Do you like animals?” - Y | N, “Do you like Adventure?” - Y | N
+* Output interface: looks like a Netflix output system? Have to use Flask-Bootstrap.
+* Therefore this can get complicated with the additional requirements above.
+
 
 ### Other Questions:
 Example of what our system can produce:-

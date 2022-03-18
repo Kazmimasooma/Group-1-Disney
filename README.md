@@ -9,7 +9,7 @@ Building a recommendation system to suggest movies (genres) to users based on pr
 Data Sources
 - Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset
 - Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
-- Disney Movie Reviews (incomplete), potentially for NLP: https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
+- User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
 - IMDB (or another) Ratings dataset: https://datasets.imdbws.com/
 
 KPIs ( What and When)

@@ -21,8 +21,11 @@ Data Sources
 - User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
 - NOT REQUIRED IMDB (or another) Ratings dataset: https://datasets.imdbws.com/
 
-KPIs ( What and When)
-- Revenue - Toys,Parks, Movies, Franchise(?)
+What Information are available in the datasets?
+- Revenue - Toys,Parks, Movies, Merchandise / Franchise(?)
+- Has Hero / Villian or Not.
+- Has Song?
+- Genres
 - Ratings
 - Number of users who rated / movie
 

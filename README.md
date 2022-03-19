@@ -52,5 +52,8 @@ KPIs ( What and When)
 ## Project Methodology
 Agile - Scrum
 
+## References
+* Wikipedia: Disney
+
 ## Appendix
 * EDA: https://www.analyticsvidhya.com/blog/2021/04/mastering-exploratory-data-analysiseda-for-data-science-enthusiasts/

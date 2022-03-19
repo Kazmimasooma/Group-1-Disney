@@ -1,6 +1,6 @@
 # Group-1-Project-Movie-Recommendation-System
 
-## Overview / Decomposing the Ask
+## Project Overview
 
 Building a recommendation system to suggest movies (genres) to users based on preferences. ← This is really difficult because we also need to build:
 * User input interface: ask users questions in order to see what they like. Can be decision tree version:  “Do you like animals?” - Y | N, “Do you like Adventure?” - Y | N

@@ -18,7 +18,7 @@ Think from business point of view. Example of what our system can produce:-
 Data Sources
 - Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset
 - Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
-- MovieLens Ratings dataset: https://grouplens.org/datasets/movielens/
+- MovieLens Users Ratings dataset: https://grouplens.org/datasets/movielens/
 - (Not good enough) User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
 - NOT REQUIRED IMDB (or another) Ratings dataset: https://datasets.imdbws.com/
 

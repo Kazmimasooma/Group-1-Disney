@@ -2,21 +2,15 @@
 
 ## Project Overview
 
-Building a recommendation system to suggest movies (genres) to users based on preferences. ← This is really difficult because we also need to build:
-* User input interface: ask users questions in order to see what they like. Can be decision tree version:  “Do you like animals?” - Y | N, “Do you like Adventure?” - Y | N
-* Output interface: looks like a Netflix output system? Have to use Flask-Bootstrap.
-* Therefore this can get complicated with the additional requirements above.
-
 ## Why we selected this topic
-A movie recommendation sysytem is an essential part of any streaming platform. It enhances the user experience and helps consumers make faster decisions on what to watch. In addition, the data gathered from users watch history can be utilized in other ways mentioned below.
 
-## Other questions we hope to answer:
-From a business point of view, our system can be used to produce the following:-
+## Decomposing the Ask
+hink from business point of view. Example of what our system can produce:-
 1. Customer segmentation:
-* With the data we have, we can “discover” user preferences. One example of using our dataset is by helping companies like ToysRus with product placement. For example: assume our data indicates that people who like Lion King also like Toy story. Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. Since both movies fall under the “Adventure” genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not just dolls.
+* With the data we have, we can “discover” user preferences and toys sales, and therefore use this information for ToysRus toy product placement. Eg: Lion King merchandise beside Toy Story merchandise as we discovered that people who like Lion King also like Toy Story. If the genre are both “Adventure”, then we can also suggest that the toy merchandise include something like “adventure game” and not just soft toys.
+* With the customer segmentation, Disney new releases can be advertised on IMDB & Rotten Tomatoes to "look alike" customers. Therefore Disney is spending the marketing ads funds in a targeted manner.
 
-* With the customer segmentation, Disney new releases can be advertised on IMDB & Rotten Tomatoes to "look alike" customers. Therefore Disney is spending the marketing ads funds in a targeted manner. 
-
+* Disney Park revenue:- the same can be said about park. Fast pass for Lion King & Toy Story as the same people like both movies. OR let’s say both of these are under “Adventure” genre, then we can say, the new Toy Story in Disney park should be an adventure ride and not like “It’s A Small World” ride.
 * Disney Park revenue:- We can use our dataset to make informed decisions about the disney park rides. We can put Lion King & Toy Story themed rides beside each other. In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventerous demographic.
 
 

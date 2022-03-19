@@ -7,8 +7,10 @@ Building a recommendation system to suggest movies (genres) to users based on pr
 * Output interface: looks like a Netflix output system? Have to use Flask-Bootstrap.
 * Therefore this can get complicated with the additional requirements above.
 
+## Why we selected this topic
+A movie recommendation sysytem is an essential part of any streaming platform. It enhances the user experience and helps consumers make faster decisions on what to watch. In addition, the data gathered from users watch history can be utilized in other ways mentioned below.
 
-### Other Questions:
+## Other Questions:
 From a business point of view, our system can be used to produce the following:-
 1. Customer segmentation:
 * With the data we have, we can “discover” user preferences. One example of using our dataset is by helping companies like ToysRus with product placement. For example: assume our data indicates that people who like Lion King also like Toy story. Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. Since both movies fall under the “Adventure” genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not just dolls.

@@ -22,7 +22,7 @@ Data Sources
 - MovieLens Users Ratings dataset: https://grouplens.org/datasets/movielens/
 
 Future Analysis
-- Toy Sales Amazon dataset: https://www.kaggle.com/PromptCloudHQ/toy-products-on-amazon
+- (Filter by Brand: Disney) Toy Sales Amazon dataset: https://www.kaggle.com/PromptCloudHQ/toy-products-on-amazon
 
 Incomplete Dataset
 - (Not good enough) User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo

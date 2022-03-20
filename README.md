@@ -38,6 +38,9 @@ What Information are available in the datasets?
 ## Data Preparation / Data Retrieval plan /  Assemble and Clean Data
 
 - EDA: Exploratory Data Analysis
+* Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset completed by Tanzim (check inside branch: Tanzim_Amin)
+* Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies completed by Suyin (check inside branch: suyin). From this dataset, we only need these columns ('title','Release date','imdb', 'metascore', 'rotten_tomatoes'). However, there are a lot of NaN values. 444 movies in total, 175 has NaN values.
+
 - Data Preparation:
 - Data Specific Method: Content-based filtering
 

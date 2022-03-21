@@ -48,7 +48,7 @@ KPIs ( What and When)
 
 ## Our Model
 
-- SY: Work in progress, as we are still brainstorming.
+- ML Model: Unsupervised ML
 - SQL database: due to the data being standard data, this is a better option than NoSQL database.
 
 ## Team Communication

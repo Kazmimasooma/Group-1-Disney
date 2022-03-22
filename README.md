@@ -26,7 +26,6 @@ Future Analysis
 
 Incomplete Dataset
 - (Not good enough) User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
-- NOT REQUIRED IMDB (or another) Ratings dataset: https://datasets.imdbws.com/
 
 KPIs ( What and When)
 - Revenue - Toys,Parks, Movies, Franchise(?)

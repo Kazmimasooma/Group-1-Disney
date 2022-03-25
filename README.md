@@ -25,7 +25,6 @@ Future Analysis
 
 Incomplete Dataset
 - (Not good enough) User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
-- NOT REQUIRED IMDB (or another) Ratings dataset: https://datasets.imdbws.com/
 
 What Information are available in the datasets?
 - Revenue - Toys,Parks, Movies, Merchandise / Franchise(?)
@@ -50,7 +49,7 @@ What Information are available in the datasets?
 
 ## Our Model
 
-- SY: Work in progress, as we are still brainstorming.
+- ML Model: Unsupervised ML
 - SQL database: due to the data being standard data, this is a better option than NoSQL database.
 
 ## Team Communication

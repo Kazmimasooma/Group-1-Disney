@@ -2,6 +2,9 @@
 #Mac changes files
 .DS_Store
 
+#API keys
+API*
+
 #practice directory
 practice/*
 

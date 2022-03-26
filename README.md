@@ -81,3 +81,8 @@ Agile - Scrum
 
 ## Appendix
 * EDA: https://www.analyticsvidhya.com/blog/2021/04/mastering-exploratory-data-analysiseda-for-data-science-enthusiasts/
+
+## Disney Acquisitions:
+
+<img width="495" alt="image" src="https://user-images.githubusercontent.com/93067732/160220843-7a922051-d28d-4758-9cbb-44ca1f836182.png">
+

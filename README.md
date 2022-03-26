@@ -16,6 +16,7 @@ Then placing Lion King merchandise beside Toy Story merchandise will result in i
 just dolls.
 
 ### Customer segmentation
+* If we can segment our customers into like minded groups. We can market more efficiently and target the right customers.
 * With the customer segmentation, Disney new releases can be advertised on IMDB & Rotten Tomatoes to "look alike" customers. Therefore Disney is spending the marketing ads funds in a targeted manner.
 
 ### Disney Park revenue

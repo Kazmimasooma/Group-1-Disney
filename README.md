@@ -1,11 +1,19 @@
 # Group-1-Disney
 
 ## Project Overview
+In recent years the number of streaming sites have been increasing and with that we have access to an enormous amount of user data. 
+We know a users watch history, movie ratings and what other similar movies or genres they like. 
+Using this dataset we want to predict user preferences and how to market certain products based on their interests. 
+Our ML model will be providing recommendations based on Disney franchises. But can be used with other streaming datasets as well.
 
 ## Why we selected this topic
+We feel like we can utilize this project in a variety of business scenarios:-
 
-## Decomposing the Ask
-Think from business point of view. Example of what our system can produce:-
+### Product Placement in stores
+* Useful to companies like ToysRus, assume users who like Lion King also likes Toy story.
+Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. 
+* Since both movies fall under Adventure genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not
+just dolls.
 1. Customer segmentation:
 * With the data we have, we can “discover” user preferences and toys sales, and therefore use this information for ToysRus toy product placement. Eg: Lion King merchandise beside Toy Story merchandise as we discovered that people who like Lion King also like Toy Story. If the genre are both “Adventure”, then we can also suggest that the toy merchandise include something like “adventure game” and not just soft toys.
 * With the customer segmentation, Disney new releases can be advertised on IMDB & Rotten Tomatoes to "look alike" customers. Therefore Disney is spending the marketing ads funds in a targeted manner.

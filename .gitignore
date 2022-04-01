@@ -1,6 +1,6 @@
 
 #Mac changes files
-.DS_Store
+.DS_Store*
 
 #API keys
 API*

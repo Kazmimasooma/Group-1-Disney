@@ -101,6 +101,10 @@ KPIs ( What and When)
 ![ERD - Final Project ](https://user-images.githubusercontent.com/93067732/161170097-adc63260-ecbd-4b2b-8eba-1b360be93a0d.png)
 
 
+![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/161175407-aee49e33-bcf3-4de0-a1ce-378a31b07fe6.png)
+
+
+
 ## Analysis & Visualization
 
 - Trend Analysis: Historical across multiple data points.

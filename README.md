@@ -31,7 +31,7 @@ just dolls.
 
 ###### Disney Park revenue: 
 
-- We can use our dataset to make informed decisions about the disney park rides. 
+- We can use our dataset to make informed decisions about the disney park rides 
 
 - We can put Lion King & Toy Story themed rides beside each other. 
 

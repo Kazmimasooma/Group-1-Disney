@@ -109,7 +109,7 @@ KPIs ( What and When)
 
 - Trend Analysis: Historical across multiple data points.
 
-#### ML clusters visualisation: 
+#### ML clusters visualization:
 
 ![clusters_visualisation](https://user-images.githubusercontent.com/93067732/161175803-d831b1fa-74c0-48d8-a7e1-00c726d3961d.png)
 

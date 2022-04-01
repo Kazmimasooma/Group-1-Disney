@@ -10,7 +10,8 @@
 
 - Our ML model will be providing recommendations based on Disney franchises. But can be used with other streaming datasets as well.
 
-## Why we selected this topic
+
+## Why we selected this topic: 
 
 We can use our project in a variety of business scenarios:-
 
@@ -30,22 +31,28 @@ just dolls.
 
 ###### Disney Park revenue: 
 
-- We can use our dataset to make informed decisions about the disney park rides. 
+- We can use our dataset to make informed decisions about the disney park rides 
 
 - We can put Lion King & Toy Story themed rides beside each other. 
 
 - In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous  demographic.
 
-## Decomposing the Ask
-Think from business point of view. Example of what our system can produce:-
+
+## Decomposing the Ask: 
+
+Hink from business point of view. Example of what our system can produce:-
 
 1. Customer segmentation:
+
 * With the data we have, we can “discover” user preferences and toys sales, and therefore use this information for ToysRus toy product placement. Eg: Lion King merchandise beside Toy Story merchandise as we discovered that people who like Lion King also like Toy Story. If the genre are both “Adventure”, then we can also suggest that the toy merchandise include something like “adventure game” and not just soft toys.
+
 * With the customer segmentation, Disney new releases can be advertised on IMDB & Rotten Tomatoes to "look alike" customers. Therefore Disney is spending the marketing ads funds in a targeted manner.
+
 * Disney Park revenue:- the same can be said about park. Fast pass for Lion King & Toy Story as the same people like both movies. OR let’s say both of these are under “Adventure” genre, then we can say, the new Toy Story in Disney park should be an adventure ride and not like “It’s A Small World” ride.
+
 * Disney Park revenue:- We can use our dataset to make informed decisions about the disney park rides. We can put Lion King & Toy Story themed rides beside each other. In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventerous demographic.
 
-## Questions the team hopes to answer with the data: 
+## Questions the team hopes to answer with the data
 
 1- How can we utilize users watch history data to help out other companies with product placement?
 
@@ -54,7 +61,8 @@ Think from business point of view. Example of what our system can produce:-
 
 ## Data Collection / Identify Data Source
 
-Data Sources
+Data Sources: 
+
 - Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset
 - Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
 - MovieLens Users Ratings dataset: https://grouplens.org/datasets/movielens/
@@ -64,13 +72,10 @@ Future Analysis
 
 Incomplete Dataset
 - (Not good enough) User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
-- NOT REQUIRED IMDB (or another) Ratings dataset: https://datasets.imdbws.com/
 
-What Information are available in the datasets?
-- Revenue - Toys,Parks, Movies, Merchandise / Franchise(?)
-- Has Hero / Villian or Not.
-- Has Song?
-- Genres
+KPIs ( What and When)
+
+- Revenue - Toys,Parks, Movies, Franchise(?)
 - Ratings
 - Number of users who rated / movie
 
@@ -83,13 +88,26 @@ What Information are available in the datasets?
 - Data Preparation:
 - Data Specific Method: Content-based filtering
 
+#### Brainstorming Diagram: 
+
+![Diagram Brainstorming](https://user-images.githubusercontent.com/93067732/161170113-75ebb248-54ca-4963-b9bd-8930a1a5d5fe.JPG)
+
+#### Technical Flow Diagram: 
+
+![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
+
+#### Entity Relation Diagram: 
+
+![ERD - Final Project ](https://user-images.githubusercontent.com/93067732/161170097-adc63260-ecbd-4b2b-8eba-1b360be93a0d.png)
+
+
 ## Analysis & Visualization
 
 - Trend Analysis: Historical across multiple data points.
 
 ## Our Model
 
-- SY: Work in progress, as we are still brainstorming.
+- ML Model: Unsupervised ML
 - SQL database: due to the data being standard data, this is a better option than NoSQL database.
 
 ## Team Communication
@@ -103,8 +121,8 @@ What Information are available in the datasets?
 ## Project Methodology
 Agile - Scrum
 
-## References
-* Wikipedia: Disney
-
-## Appendix
+## Appendix: 
 * EDA: https://www.analyticsvidhya.com/blog/2021/04/mastering-exploratory-data-analysiseda-for-data-science-enthusiasts/
+
+
+## Links

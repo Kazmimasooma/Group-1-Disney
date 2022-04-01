@@ -106,7 +106,7 @@ KPIs ( What and When)
 
 ## Analysis & Visualization
 
-#### ML clusters visualisation:
+#### ML clusters visualization:
 
 ![clusters_visualisation](https://user-images.githubusercontent.com/93067732/161175905-651ea995-ca96-41fb-9f7d-e8cd917385ed.png)
 

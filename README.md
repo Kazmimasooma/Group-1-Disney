@@ -12,6 +12,30 @@
 
 ## Why we selected this topic
 
+We can use our project in a variety of business scenarios:-
+
+###### Product Placement in stores
+- Useful to companies like ToysRus, assume users who like Lion King also likes Toy story.
+
+- Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. 
+
+- Since both movies fall under Adventure genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not
+just dolls.
+
+###### Customer segmentation: 
+
+- If we can segment our customers into like minded groups. We can market more efficiently and target the right customers.
+
+- Assuming a customer loves the adventure genre, we can advertise more adventure themed merchandise or movies to them.
+
+###### Disney Park revenue: 
+
+- We can use our dataset to make informed decisions about the disney park rides. 
+
+- We can put Lion King & Toy Story themed rides beside each other. 
+
+- In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous  demographic.
+
 ## Decomposing the Ask
 Think from business point of view. Example of what our system can produce:-
 

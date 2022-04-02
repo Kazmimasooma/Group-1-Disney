@@ -152,6 +152,8 @@ Disney annual/quarterly operating income history and growth rate from 2010 to 20
 
 ## Presenation: 
 
+The presenation can be found in the following link below: 
+
 https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
 
 ## DashBoard: 

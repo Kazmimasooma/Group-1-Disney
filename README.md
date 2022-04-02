@@ -67,6 +67,9 @@ Data Sources:
 - Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
 - MovieLens Users Ratings dataset: https://grouplens.org/datasets/movielens/
 
+We think that at the start of the project, as Disney, we were provided this information, which may be accessed here: https://www.the-numbers.com/movies/distributor/Walt-Disney#tab=year
+
+
 Future Analysis
 - (Filter by Brand: Disney) Toy Sales Amazon dataset: https://www.kaggle.com/PromptCloudHQ/toy-products-on-amazon
 
@@ -78,6 +81,7 @@ KPIs ( What and When)
 - Revenue - Toys,Parks, Movies, Franchise(?)
 - Ratings
 - Number of users who rated / movie
+
 
 ## Data Preparation / Data Retrieval plan /  Assemble and Clean Data
 
@@ -104,10 +108,10 @@ KPIs ( What and When)
 ![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/161175407-aee49e33-bcf3-4de0-a1ce-378a31b07fe6.png)
 
 
-
 ## Analysis & Visualization
 
 - Trend Analysis: Historical across multiple data points.
+
 
 #### ML clusters visualization:
 
@@ -130,7 +134,20 @@ KPIs ( What and When)
 Agile - Scrum
 
 ## Appendix: 
+
 * EDA: https://www.analyticsvidhya.com/blog/2021/04/mastering-exploratory-data-analysiseda-for-data-science-enthusiasts/
+
+Disney annual/quarterly operating income history and growth rate from 2010 to 2021. Operating income can be defined as income after operating expenses have been deducted and before interest payments and taxes have been deducted.
+
+- Disney operating income for the quarter ending December 31, 2021 was $2.196B, a 1404.11% increase year-over-year.
+
+- Disney operating income for the twelve months ending December 31, 2021 was $5.055B, a 212.83% decline year-over-year.
+
+- Disney annual operating income for 2021 was $3.005B, a 254.82% decline from 2020.
+
+- Disney annual operating income for 2020 was $-1.941B, a 118.23% decline from 2019.
+
+- Disney annual operating income for 2019 was $10.647B, a 28.08% decline from 2018.
 
 
 ## Links

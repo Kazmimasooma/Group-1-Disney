@@ -115,7 +115,8 @@ KPIs ( What and When)
 
 #### ML clusters visualization:
 
-![clusters_visualisation](https://user-images.githubusercontent.com/93067732/161175803-d831b1fa-74c0-48d8-a7e1-00c726d3961d.png)
+![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
+
 
 ## Our Model
 

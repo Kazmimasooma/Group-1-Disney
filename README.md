@@ -162,4 +162,8 @@ The Tableau dashboard link is below:
 
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
 
+Disney's Movies Revenue Dashboard:
+
+https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
+
 ## Links

@@ -1,5 +1,13 @@
 # Group-1-Project-Movie-Recommendation-System
 
+## Introduction:
+
+As it is well known, Disney Parks, Interactive, Toys, Merchandise, Franchise, Games and TV Shows depends on a Disney blockbuster movie for story and characters in order to generate new revenue vehicles in these verticals based on those characters and their stories.
+
+Therefore, the first driver in all our Disney verticals starts with a Disney blockbuster movie. Given a dataset of 1260 movies from Disney Company blockbuster movies and Disney + TV, we will like to utilize machine learning to find out how these blockbuster movies & tv shows clusters based on user ratings & number of votes to make business decisions within the different Disney group verticals.
+
+We will also include Disney Parks tripadvisor.com reviews as we look at the Disney company on the whole. Our machine learning models will be one part of the tools used to analyse dataset and ultimately it is our business consultants who would use this new knowledge to improve and potentially create new business decisions within the organization.
+
 ## Project Overview: 
 
 - In recent years the number of streaming sites have been increasing and with that we have access to an enormous amount of user data. 
@@ -105,6 +113,27 @@ KPIs ( What and When)
 
 ![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/161175514-9ce1a90f-3031-4de9-8e33-19427e5a5b43.png)
 
+## Deliverables: 
+
+### Presentation: 
+
+he presenation can be found in the following link below:
+
+https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
+
+
+### Dashboard: 
+
+The Tableau dashboard link is below:
+
+Disney's Revenue by Business Line - Dashboard:
+
+https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
+
+Disney's Movies Revenue Dashboard:
+
+https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
+
 
 ## Analysis & Visualization
 
@@ -145,24 +174,5 @@ Disney annual/quarterly operating income history and growth rate from 2010 to 20
 - Disney annual operating income for 2020 was $-1.941B, a 118.23% decline from 2019.
 
 - Disney annual operating income for 2019 was $10.647B, a 28.08% decline from 2018.
-
-## Presentation: 
-
-The presenation can be found in the following link below:
-
-https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
-
-## DashBoard: 
-
-The Tableau dashboard link is below:
-
-Disney's Revenue by Business Line - Dashboard:
-
-https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
-
-Disney's Movies Revenue  Dashboard: 
-
-https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
-
 
 ## Links

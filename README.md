@@ -44,11 +44,10 @@ just dolls.
 
 - In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous  demographic.
 
-## Week-1: 
 
-## Decomposing the Ask: 
+## Decomposing the Task: 
 
-Hink from business point of view. Example of what our system can produce:-
+Think from business point of view. Example of what our system can produce:-
 
 1. Customer segmentation:
 
@@ -90,6 +89,7 @@ KPIs ( What and When)
 - Ratings
 - Number of users who rated / movie
 
+## Week-1 Review: 
 
 ## Data Preparation / Data Retrieval plan /  Assemble and Clean Data
 
@@ -111,55 +111,18 @@ KPIs ( What and When)
 
 ![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/161175407-aee49e33-bcf3-4de0-a1ce-378a31b07fe6.png)
 
-## Deliverables: 
 
-### Presentation: 
+## Presentation: 
 
-The presenation can be found in the following link below: 
+We initiated the presentation data in Google slides, as per requrimenets we are hoping to complete the pesenattaion within 7 mints.
+
+The presenation draft can be found in the following link below: 
 
 https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
 
-#### Tableau: 
+## Tableau Dashboard: 
 
 We are creating Tableau to give following visualizations, which will help us with greater insights of data and also improve our presentation that can be easily understandable by the insvestors.  
-
-## Our Model
-
-- ML Model: Unsupervised ML
-- SQL database: due to the data being standard data, this is a better option than NoSQL database.
-
-## Team Communication
-
-- Team Slack Channel
-- Individual Slack Chat
-- Whatsapp group
-- Google Share Drive
-- Zoom meetings
-
-## Project Methodology
-Agile - Scrum
-
-## Appendix: 
-
-* EDA: https://www.analyticsvidhya.com/blog/2021/04/mastering-exploratory-data-analysiseda-for-data-science-enthusiasts/
-
-Disney annual/quarterly operating income history and growth rate from 2010 to 2021. Operating income can be defined as income after operating expenses have been deducted and before interest payments and taxes have been deducted.
-
-- Disney operating income for the quarter ending December 31, 2021 was $2.196B, a 1404.11% increase year-over-year.
-
-- Disney operating income for the twelve months ending December 31, 2021 was $5.055B, a 212.83% decline year-over-year.
-
-- Disney annual operating income for 2021 was $3.005B, a 254.82% decline from 2020.
-
-- Disney annual operating income for 2020 was $-1.941B, a 118.23% decline from 2019.
-
-- Disney annual operating income for 2019 was $10.647B, a 28.08% decline from 2018.
-
-
-
-## Week-2: 
-
-#### Dashboard:
 
 The Tableau dashboard link is below:
 
@@ -168,6 +131,40 @@ Disney's Revenue by Business Line - Dashboard:
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
 
 <img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
+
+## Machine Learning:
+
+We intend to use a Supervised Machine Learning model, specifically using clustering. We have a couple of questions to answer using the ML model, and know that by using our historical data of we can try to figure out if there is a relationship between a movies, user data, revenue etc to predict the trends.  We’ll analyze many different independent Y variables or features that our model will learn from.  THe expected variables are .... ( not the final wording) 
+
+
+## Team Communication and Project Methodology:
+
+- Team Slack Channel
+- Individual Slack Chat
+- Whatsapp group
+- Google Share Drive
+- Zoom meetings
+- Agile - Scrum
+
+
+
+
+## Week-2 Review: 
+
+## Database Extract, Transform and Load: 
+
+After exploration the data in first week. The data was not enough and it needed alot of cleaning. Additionally as we have mor ethan one question through machine learning, we need more than one module to run and thats why we needed some improve and comprehensive data. 
+
+We faced the challenges for primary keys and foreign keys in ERD and SQL database. (@suyin, how did we solves it?)
+
+We extracted data from kaggle, movielens and other sources. And we cleaned up data and loaded in SQL using the follwing code: 
+
+(code link will be added here)
+
+
+#### Tableau Dashboard:
+
+The Tableau dashboard link is below:
 
 Disney's Movies Revenue Dashboard:
 
@@ -181,10 +178,11 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 
 - Trend Analysis: Historical across multiple data points.
 
-
 #### ML clusters visualization:
 
 ![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
+
+
 
 
 

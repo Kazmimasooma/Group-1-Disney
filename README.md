@@ -4,7 +4,7 @@
 
 As it is well known, Disney Parks, Interactive, Toys, Merchandise, Franchise, Games and TV Shows depends on a Disney blockbuster movie for story and characters in order to generate new revenue vehicles in these verticals based on those characters and their stories.
 
-Therefore, the first driver in all our Disney verticals starts with a Disney blockbuster movie. Given a dataset of 1260 movies from Disney Company blockbuster movies and Disney + TV, we will like to utilize machine learning to find out how these blockbuster movies & tv shows clusters based on user ratings & number of votes to make business decisions within the different Disney group verticals.
+Therefore, the first driver in all our Disney verticals starts with a Disney blockbuster movie. Given a dataset of 1391 movies from Disney Company blockbuster movies and Disney + TV, we will like to utilize machine learning to find out how these blockbuster movies & tv shows clusters based on user ratings & number of votes to make business decisions within the different Disney group verticals.
 
 We will also include Disney Parks tripadvisor.com reviews as we look at the Disney company on the whole. Our machine learning models will be one part of the tools used to analyse dataset and ultimately it is our business consultants who would use this new knowledge to improve and potentially create new business decisions within the organization.
 

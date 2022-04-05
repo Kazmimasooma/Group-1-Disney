@@ -100,10 +100,6 @@ KPIs ( What and When)
 - Data Preparation:
 - Data Specific Method: Content-based filtering
 
-#### Brainstorming Diagram: 
-
-![Diagram Brainstorming](https://user-images.githubusercontent.com/93067732/161170113-75ebb248-54ca-4963-b9bd-8930a1a5d5fe.JPG)
-
 #### Technical Flow Diagram: 
 
 ![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)

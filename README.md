@@ -6,7 +6,6 @@ As it is well known, Disney Parks, Interactive, Toys, Merchandise, Franchise, Ga
 
 Therefore, the first driver in all our Disney verticals starts with a Disney blockbuster movie. Given a dataset of 1391 movies from Disney Company blockbuster movies and Disney + TV, we will like to utilize machine learning to find out how these blockbuster movies & tv shows clusters based on user ratings & number of votes to make business decisions within the different Disney group verticals.
 
-We will also include Disney Parks tripadvisor.com reviews as we look at the Disney company on the whole. Our machine learning models will be one part of the tools used to analyse dataset and ultimately it is our business consultants who would use this new knowledge to improve and potentially create new business decisions within the organization.
 
 ## Project Overview: 
 
@@ -45,6 +44,7 @@ just dolls.
 
 - In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous  demographic.
 
+## Week-1: 
 
 ## Decomposing the Ask: 
 
@@ -119,28 +119,9 @@ The presenation can be found in the following link below:
 
 https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
 
-### Dashboard: 
+#### Tableau: 
 
-The Tableau dashboard link is below:
-
-Disney's Revenue by Business Line - Dashboard:
-
-https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
-
-Disney's Movies Revenue Dashboard:
-
-https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
-
-
-## Analysis & Visualization
-
-- Trend Analysis: Historical across multiple data points.
-
-
-#### ML clusters visualization:
-
-![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
-
+We are creating Tableau to give following visualizations, which will help us with greater insights of data and also improve our presentation that can be easily understandable by the insvestors.  
 
 ## Our Model
 
@@ -175,4 +156,37 @@ Disney annual/quarterly operating income history and growth rate from 2010 to 20
 - Disney annual operating income for 2019 was $10.647B, a 28.08% decline from 2018.
 
 
-## Links
+
+## Week-2: 
+
+#### Dashboard:
+
+The Tableau dashboard link is below:
+
+Disney's Revenue by Business Line - Dashboard:
+
+https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
+
+<img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
+
+Disney's Movies Revenue Dashboard:
+
+https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
+
+<img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
+
+#### Machine Leraning: 
+
+#### Analysis & Visualization
+
+- Trend Analysis: Historical across multiple data points.
+
+
+#### ML clusters visualization:
+
+![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
+
+
+
+
+

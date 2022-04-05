@@ -161,8 +161,12 @@ We extracted data from kaggle, movielens and other sources. And we cleaned up da
 
 (code link will be added here)
 
+also we updated the ERD as follows: 
 
-#### Tableau Dashboard:
+<img width="869" alt="image" src="https://user-images.githubusercontent.com/93067732/161844877-f55c1789-5877-4228-8f9b-6f7d4669ef59.png">
+
+
+## Tableau Dashboard:
 
 The Tableau dashboard link is below:
 
@@ -172,7 +176,7 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 
 <img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
 
-#### Machine Leraning: 
+## Machine Leraning: 
 
 #### Analysis & Visualization
 

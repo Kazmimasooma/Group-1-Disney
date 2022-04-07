@@ -1,14 +1,13 @@
 # Group-1-Project-Movie-Recommendation-System
 
-## Introduction: 
+## Introduction
 
 As it is well known, Disney Parks, Interactive, Toys, Merchandise, Franchise, Games and TV Shows depends on a Disney blockbuster movie for story and characters in order to generate new revenue vehicles in these verticals based on those characters and their stories.
 
-Therefore, the first driver in all our Disney verticals starts with a Disney blockbuster movie. Given a dataset of 1260 movies from Disney Company blockbuster movies and Disney + TV, we will like to utilize machine learning to find out how these blockbuster movies & tv shows clusters based on user ratings & number of votes to make business decisions within the different Disney group verticals.
+Therefore, the first driver in all our Disney verticals starts with a Disney blockbuster movie. Given a dataset of 1391 movies from Disney Company blockbuster movies and Disney + TV, we will like to utilize machine learning to find out how these blockbuster movies & tv shows clusters based on user ratings & number of votes to make business decisions within the different Disney group verticals.
 
-We will also include Disney Parks tripadvisor.com reviews as we look at the Disney company on the whole. Our machine learning models will be one part of the tools used to analyse dataset and ultimately it is our business consultants who would use this new knowledge to improve and potentially create new business decisions within the organization.
 
-## Project Overview: 
+## Project Overview 
 
 - In recent years the number of streaming sites have been increasing and with that we have access to an enormous amount of user data. 
 
@@ -19,11 +18,12 @@ We will also include Disney Parks tripadvisor.com reviews as we look at the Disn
 - Our ML model will be providing recommendations based on Disney franchises. But can be used with other streaming datasets as well.
 
 
-## Why we selected this topic: 
+## Why we selected this topic
 
 We can use our project in a variety of business scenarios:-
 
 ###### Product Placement in stores
+
 - Useful to companies like ToysRus, assume users who like Lion King also likes Toy story.
 
 - Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. 
@@ -31,13 +31,13 @@ We can use our project in a variety of business scenarios:-
 - Since both movies fall under Adventure genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not
 just dolls.
 
-###### Customer segmentation: 
+###### Customer segmentation
 
 - If we can segment our customers into like minded groups. We can market more efficiently and target the right customers.
 
 - Assuming a customer loves the adventure genre, we can advertise more adventure themed merchandise or movies to them.
 
-###### Disney Park revenue: 
+###### Disney Park revenue
 
 - We can use our dataset to make informed decisions about the disney park rides 
 
@@ -46,11 +46,11 @@ just dolls.
 - In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous  demographic.
 
 
-## Decomposing the Ask: 
+## Decomposing the Task
 
-Hink from business point of view. Example of what our system can produce:-
+Think from business point of view. Example of what our system can produce:-
 
-1. Customer segmentation:
+1. Customer segmentation
 
 * With the data we have, we can “discover” user preferences and toys sales, and therefore use this information for ToysRus toy product placement. Eg: Lion King merchandise beside Toy Story merchandise as we discovered that people who like Lion King also like Toy Story. If the genre are both “Adventure”, then we can also suggest that the toy merchandise include something like “adventure game” and not just soft toys.
 
@@ -90,6 +90,7 @@ KPIs ( What and When)
 - Ratings
 - Number of users who rated / movie
 
+## Week-1 Review
 
 ## Data Preparation / Data Retrieval plan /  Assemble and Clean Data
 
@@ -100,30 +101,29 @@ KPIs ( What and When)
 - Data Preparation:
 - Data Specific Method: Content-based filtering
 
-#### Brainstorming Diagram: 
-
-![Diagram Brainstorming](https://user-images.githubusercontent.com/93067732/161170113-75ebb248-54ca-4963-b9bd-8930a1a5d5fe.JPG)
-
-#### Technical Flow Diagram: 
+#### Technical Flow Diagram
 
 ![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
-#### Entity Relation Diagram: 
+#### Entity Relation Diagram 
 
 ![ERD - Final Project ](https://user-images.githubusercontent.com/93067732/161170097-adc63260-ecbd-4b2b-8eba-1b360be93a0d.png)
 
 
 ![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/161175407-aee49e33-bcf3-4de0-a1ce-378a31b07fe6.png)
 
-## Deliverables: 
 
-### Presentation: 
+## Presentation
 
-The presenation can be found in the following link below: 
+We initiated the presentation data in Google slides, as per requrimenets we are hoping to complete the pesenattaion within 7 mints.
+
+The presenation draft can be found in the following link below: 
 
 https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
 
-### Dashboard: 
+## Tableau Dashboard
+
+We are creating Tableau to give following visualizations, which will help us with greater insights of data and also improve our presentation that can be easily understandable by the insvestors.  
 
 The Tableau dashboard link is below:
 
@@ -131,52 +131,74 @@ Disney's Revenue by Business Line - Dashboard:
 
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
 
-Disney's Movies Revenue Dashboard:
+<img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
 
-https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
+## Machine Learning
 
+We intend to use a Unsupervised Machine Learning model, specifically K-means clustering. We have a couple of questions to answer using the ML model, and know that by using historical data, we will see a relationship between a movies, user data, revenue etc to predict the user preference trends. 
 
-## Analysis & Visualization
-
-- Trend Analysis: Historical across multiple data points.
-
-
-#### ML clusters visualization:
-
-![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
+### Feature Engineering
+We’ll analyze many different independent Y variables or features that our model will learn from.  THe expected variables are .... ( not the final wording) 
 
 
-## Our Model
-
-- ML Model: Unsupervised ML
-- SQL database: due to the data being standard data, this is a better option than NoSQL database.
-
-## Team Communication
+## Team Communication and Project Methodology
 
 - Team Slack Channel
 - Individual Slack Chat
 - Whatsapp group
 - Google Share Drive
 - Zoom meetings
-
-## Project Methodology
-Agile - Scrum
-
-## Appendix: 
-
-* EDA: https://www.analyticsvidhya.com/blog/2021/04/mastering-exploratory-data-analysiseda-for-data-science-enthusiasts/
-
-Disney annual/quarterly operating income history and growth rate from 2010 to 2021. Operating income can be defined as income after operating expenses have been deducted and before interest payments and taxes have been deducted.
-
-- Disney operating income for the quarter ending December 31, 2021 was $2.196B, a 1404.11% increase year-over-year.
-
-- Disney operating income for the twelve months ending December 31, 2021 was $5.055B, a 212.83% decline year-over-year.
-
-- Disney annual operating income for 2021 was $3.005B, a 254.82% decline from 2020.
-
-- Disney annual operating income for 2020 was $-1.941B, a 118.23% decline from 2019.
-
-- Disney annual operating income for 2019 was $10.647B, a 28.08% decline from 2018.
+- Agile - Scrum
 
 
-## Links
+
+
+## Week-2 Review
+
+## Database Extract, Transform and Load
+
+After exploration the data in first week. The data was incomplete, messy and did not yield good results after parsing through our first ML model. Furthermore, we have more than one question business question, therefore we need to implement other ML models to answer those questions. 
+Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and freshest dataset.
+
+With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore the data integrity is preserved. 
+
+We extracted data from kaggle, IMDB, Wikipedia, the-numbers and movielens. We cleaned up data and loaded in SQL using the following code: 
+
+(code link will be added here)
+
+also we updated the ERD as follows: 
+
+<img width="869" alt="image" src="https://user-images.githubusercontent.com/93067732/161844877-f55c1789-5877-4228-8f9b-6f7d4669ef59.png">
+
+
+## Tableau Dashboard
+
+The Tableau dashboard link is below:
+
+Disney's Movies Revenue Dashboard:
+
+https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
+
+<img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
+
+## Machine Learning
+
+### K-means Clustering Model
+#### Analysis & Visualization
+While we have completed our first ML model using K-means clustering, we have also detected the poor performance with our model as the data visualisation shows that it is an elongated data. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
+
+#### ML clusters visualization
+
+![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
+
+### Nearest Neighbour
+K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
+
+
+
+
+
+
+
+
+

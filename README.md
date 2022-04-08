@@ -75,14 +75,8 @@ Data Sources:
 - Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
 - MovieLens Users Ratings dataset: https://grouplens.org/datasets/movielens/
 
-We think that at the start of the project, as Disney, we were provided this information, which may be accessed here: https://www.the-numbers.com/movies/distributor/Walt-Disney#tab=year
+As Disney corporation, we will assume that we are provided with this information at the start, which may be accessed here: https://www.the-numbers.com/movies/distributor/Walt-Disney#tab=year
 
-
-Future Analysis
-- (Filter by Brand: Disney) Toy Sales Amazon dataset: https://www.kaggle.com/PromptCloudHQ/toy-products-on-amazon
-
-Incomplete Dataset
-- (Not good enough) User Disney Movie Reviews (incomplete): https://www.kaggle.com/andreaserrano/imdb-disneys-reviews-oo
 
 KPIs ( What and When)
 
@@ -95,8 +89,7 @@ KPIs ( What and When)
 ## Data Preparation / Data Retrieval plan /  Assemble and Clean Data
 
 - EDA: Exploratory Data Analysis
-* Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset completed by Tanzim (check inside branch: Tanzim_Amin)
-* Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies completed by Suyin (check inside branch: suyin). From this dataset, we only need these columns ('title','Release date','imdb', 'metascore', 'rotten_tomatoes'). However, there are a lot of NaN values. 444 movies in total, 175 has NaN values.
+* Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset 
 
 - Data Preparation:
 - Data Specific Method: Content-based filtering
@@ -149,7 +142,6 @@ We’ll analyze many different independent Y variables or features that our mode
 - Google Share Drive
 - Zoom meetings
 - Agile - Scrum
-
 
 
 

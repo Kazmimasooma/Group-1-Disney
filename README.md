@@ -177,7 +177,7 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 
 ### K-means Clustering Model
 #### Analysis & Visualization
-While we have completed our first ML model using K-means clustering, we have also detected the poor performance with our model as the data visualisation shows that it is an elongated data. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
+While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
 
 #### ML clusters visualization
 

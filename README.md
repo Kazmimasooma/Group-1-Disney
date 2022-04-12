@@ -128,15 +128,14 @@ CREATE TABLE gross_revenue (
 
 ## Presentation
 
-We initiated the presentation data in Google slides, as per requirements we are hoping to complete the presentation within 7 mints.
-
+We initiated the presentation data in Google slides.
 The presentation draft can be found in the following link below: 
 
 https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
 
 ## Tableau Dashboard
 
-We are creating Tableau to give following visualizations, which will help us with greater insights of data and also improve our presentation that can be easily understandable by the insvestors.  
+We created Tableau to give following visualizations, which helped us with greater insights of data and also improve our presentation that can be easily understandable by the investors.  
 
 The Tableau dashboard link is below:
 
@@ -190,7 +189,7 @@ We’ll analyze many different independent Y variables or features that our mode
 
 - Team Slack Channel
 - Individual Slack Chat
-- Whatsapp group
+- WhatsApp group
 - Google Share Drive
 - Zoom meetings
 - Agile - Scrum. 

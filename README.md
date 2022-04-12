@@ -167,10 +167,6 @@ While we have completed our first ML model using K-means clustering, while it fu
 
 <img width="840" alt="image" src="https://user-images.githubusercontent.com/93067732/162884820-7d2a87d7-c8ae-4de9-95f3-6483285118d3.png">
 
-#### ML clusters visualization
-
-![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
-
 ### Nearest Neighbour
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
 

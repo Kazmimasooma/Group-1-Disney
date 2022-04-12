@@ -79,13 +79,14 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 <img width="827" alt="image" src="https://user-images.githubusercontent.com/93067732/162883596-363e5fbb-5db9-425d-be79-c89dc32199c7.png">
 
-#### Connect to SQL: 
+#### Connect to SQL
 
 <img width="1016" alt="image" src="https://user-images.githubusercontent.com/93067732/162883821-25cdfe57-fd67-45c0-bb3e-ee7e82e5f108.png">
 
-#### SQL code: 
+#### SQL SCHEMA
 
--CREATE TABLE movies (
+```
+CREATE TABLE movies (
 	imdb_id varchar   NOT NULL PRIMARY KEY,
 	title varchar   NOT NULL,
 	year int   NOT NULL,
@@ -97,32 +98,32 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 	genres varchar   NOT NULL
 	);
 
--CREATE TABLE language_country (
+CREATE TABLE language_country (
 	lc_id varchar   NOT NULL PRIMARY KEY,
 	imdb_id varchar   REFERENCES movies (imdb_id),
 	language archer   NOT NULL,
 	country varchar   NOT NULL
 	);
 
--CREATE TABLE awards (
+CREATE TABLE awards (
 	awards_id varchar   NOT NULL PRIMARY KEY,
 	imdb_id varchar   REFERENCES movies (imdb_id),
 	awards archer   NOT NULL
 	);
 
--CREATE TABLE metascore (
+CREATE TABLE metascore (
 	ms_id varchar   NOT NULL PRIMARY KEY,
 	imdb_id varchar   REFERENCES movies (imdb_id),
 	metascore varchar   NOT NULL
 	);
 
--CREATE TABLE gross_revenue (
+CREATE TABLE gross_revenue (
 	rev_id varchar   NOT NULL PRIMARY KEY,
 	imdb_id varchar   REFERENCES movies (imdb_id),
 	total_gross int   NOT NULL,
 	inflation_adjusted_gross int   NOT NULL
 	);
-
+```
 
 ## Presentation
 
@@ -143,7 +144,7 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusin
 
 <img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
 
-The Tableau dashboard link is below:
+### The Tableau dashboard link is below
 
 Disney's Movies Revenue Dashboard:
 
@@ -162,7 +163,7 @@ We intend to use a Unsupervised Machine Learning model, specifically K-means clu
 #### Analysis & Visualization
 While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
 
-#### Elbow curve: 
+#### Elbow curve
 
 <img width="840" alt="image" src="https://user-images.githubusercontent.com/93067732/162884820-7d2a87d7-c8ae-4de9-95f3-6483285118d3.png">
 

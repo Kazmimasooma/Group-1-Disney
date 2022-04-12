@@ -54,10 +54,12 @@ GroupLens Research has collected and made available rating data sets from the Mo
 
 ## Data Preparation / Data Retrieval plan / Assemble and Clean Data
 
+(NEED TO IMPROVE THIS PART)
 - EDA: Exploratory Data Analysis
 * Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset 
 - Data Preparation
 - Data Specific Method: Content-based filtering
+- 
 #### Technical Flow Diagram
 ![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
@@ -66,7 +68,7 @@ After exploration the data initially. We found that the data was incomplete, mes
 Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and freshest dataset.
 With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore, the data integrity is preserved. 
 
-![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/161175407-aee49e33-bcf3-4de0-a1ce-378a31b07fe6.png)
+![IMDB_scrape_code_snippet]
 
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/93067732/162882598-4ada9c91-9638-4fbf-b705-f665f7c80dda.png">
 

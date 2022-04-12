@@ -194,3 +194,15 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 ### Feature Engineering
 
 We’ll analyze many different independent Y variables or features that our model will learn from. 
+
+## Team Communication and Project Methodology
+
+- Team Slack Channel
+- Individual Slack Chat
+- Whatsapp group
+- Google Share Drive
+- Zoom meetings
+- Agile - Scrum
+
+
+

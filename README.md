@@ -36,8 +36,8 @@ Thinking from business point of view. Example of what our system can produce: -
 
 ## Questions the team hopes to answer with the data
 
-1- How can we utilize users watch history data to help other companies with product placement?
-2- Can we accurately predict user preferences and help companies market more effectively? Why or why not?
+1. How can we utilize users watch history data to help other companies with product placement?
+2. Can we accurately predict user preferences and help companies market more effectively? Why or why not?
 
 ## Data Collection / Identify Data Source
 

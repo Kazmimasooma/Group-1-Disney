@@ -190,3 +190,7 @@ While we have completed our first ML model using K-means clustering, while it fu
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/93067732/162882236-de675578-20f9-424c-9567-b6d9e80923cf.png">
+
+### Feature Engineering
+
+We’ll analyze many different independent Y variables or features that our model will learn from. 

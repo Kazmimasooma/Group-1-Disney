@@ -37,15 +37,15 @@ Think from business point of view. Example of what our system can produce:-
 
 * Disney Park revenue:- We can use our dataset to make informed decisions about the disney park rides. We can put Lion King & Toy Story themed rides beside each other. In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventerous demographic.
 
-## Questions the team hopes to answer with the data
+## Questions the team hopes to answer with the data: 
 
 1- How can we utilize users watch history data to help other companies with product placement?
 2- Can we accurately predict user preferences and help companies market more effectively? Why or why not?
 
 
-## Data Collection / Identify Data Source
+## Data Collection / Identify Data Source: 
 
-#### Data Sources
+#### Data Sources: 
 
 - kaggle.com
 Walt Disney Character Dataset

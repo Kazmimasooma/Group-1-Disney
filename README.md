@@ -59,8 +59,6 @@ GroupLens Research has collected and made available rating data sets from the Mo
 - IMDB, the-numbers.com, wikipedia & get the MovieLens movies.csv
 
 
-
-
 ## Data Preparation / Data Retrieval plan /  Assemble and Clean Data
 
 - EDA: Exploratory Data Analysis

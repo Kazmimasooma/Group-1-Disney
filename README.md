@@ -173,7 +173,8 @@ We intend to use a Unsupervised Machine Learning model, specifically K-means clu
 
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/93067732/162884041-358bc781-e601-4825-a3ad-19374a0c3730.png">
 
-#### Analysis & Visualization
+#### Analysis & Visualization: 
+
 While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
 
 #### Elbow curve: 

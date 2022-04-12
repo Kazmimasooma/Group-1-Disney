@@ -43,22 +43,23 @@ Think from business point of view. Example of what our system can produce:-
 2- Can we accurately predict user preferences and help companies market more effectively? Why or why not?
 
 
-
 ## Data Collection / Identify Data Source
 
 #### Data Sources
-- Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset
-- Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
-- MovieLens Users Ratings dataset: https://grouplens.org/datasets/movielens/
-- Toy Sales Amazon dataset: https://www.kaggle.com/PromptCloudHQ/toy-products-on-amazon
 
-#### KPIs (What and When)
-- Revenue - Toys, Parks, Movies, Franchise
-- Ratings
-- Number of users who rated / movie
+- kaggle.com
+Walt Disney Character Dataset
+Contains data about Walt Disney characters
+- kaggle.com
+Walt Disney Movies
+Walt Disney Movie dataset
+- GroupLensGroupLens
+MovieLens
+GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of time, depending on the size of the set.
+- IMDB, the-numbers.com, wikipedia & get the MovieLens movies.csv
 
 
-## Week-1 Review
+
 
 ## Data Preparation / Data Retrieval plan /  Assemble and Clean Data
 
@@ -72,12 +73,70 @@ Think from business point of view. Example of what our system can produce:-
 
 ![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
-#### Entity Relation Diagram 
 
-![ERD - Final Project ](https://user-images.githubusercontent.com/93067732/161170097-adc63260-ecbd-4b2b-8eba-1b360be93a0d.png)
+## Database Extract, Transform and Load
 
+After exploration the data in first week. The data was incomplete, messy and did not yield good results after parsing through our first ML model. Furthermore, we have more than one question business question, therefore we need to implement other ML models to answer those questions. 
+Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and freshest dataset.
+
+With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore the data integrity is preserved. 
 
 ![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/161175407-aee49e33-bcf3-4de0-a1ce-378a31b07fe6.png)
+
+<img width="809" alt="image" src="https://user-images.githubusercontent.com/93067732/162882598-4ada9c91-9638-4fbf-b705-f665f7c80dda.png">
+
+also we updated the ERD as follows: 
+
+<img width="869" alt="image" src="https://user-images.githubusercontent.com/93067732/161844877-f55c1789-5877-4228-8f9b-6f7d4669ef59.png">
+
+## SQL: 
+
+<img width="827" alt="image" src="https://user-images.githubusercontent.com/93067732/162883596-363e5fbb-5db9-425d-be79-c89dc32199c7.png">
+
+#### Connect to SQL: 
+
+<img width="1016" alt="image" src="https://user-images.githubusercontent.com/93067732/162883821-25cdfe57-fd67-45c0-bb3e-ee7e82e5f108.png">
+
+
+#### SQL code: 
+
+CREATE TABLE movies (
+	imdb_id varchar   NOT NULL PRIMARY KEY,
+	title varchar   NOT NULL,
+	year int   NOT NULL,
+	rated varchar   NOT NULL,
+	released date   NOT NULL,
+	runtime int   NOT NULL,
+	imdb_rating float   NOT NULL,
+	imdb_votes int   NOT NULL,
+	genres varchar   NOT NULL
+	);
+​
+CREATE TABLE language_country (
+	lc_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	language archer   NOT NULL,
+	country varchar   NOT NULL
+	);
+​
+CREATE TABLE awards (
+	awards_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	awards archer   NOT NULL
+	);
+​
+CREATE TABLE metascore (
+	ms_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	metascore varchar   NOT NULL
+	);
+​
+CREATE TABLE gross_revenue (
+	rev_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	total_gross int   NOT NULL,
+	inflation_adjusted_gross int   NOT NULL
+	);
 
 
 ## Presentation
@@ -100,11 +159,43 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusin
 
 <img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
 
+The Tableau dashboard link is below:
+
+Disney's Movies Revenue Dashboard:
+
+https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
+
+<img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
+
 ## Machine Learning
 
 We intend to use a Unsupervised Machine Learning model, specifically K-means clustering. We have a couple of questions to answer using the ML model, and know that by using historical data, we will see a relationship between a movies, user data, revenue etc to predict the user preference trends. 
 
+### K-means Clustering Model
+
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/93067732/162884041-358bc781-e601-4825-a3ad-19374a0c3730.png">
+
+#### Analysis & Visualization
+While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
+
+#### Elbow curve: 
+
+<img width="840" alt="image" src="https://user-images.githubusercontent.com/93067732/162884820-7d2a87d7-c8ae-4de9-95f3-6483285118d3.png">
+
+
+#### ML clusters visualization
+
+![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
+
+
+### Nearest Neighbour
+K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/93067732/162882236-de675578-20f9-424c-9567-b6d9e80923cf.png">
+
+
 ### Feature Engineering
+
 We’ll analyze many different independent Y variables or features that our model will learn from.  THe expected variables are .... ( not the final wording) 
 
 
@@ -119,48 +210,6 @@ We’ll analyze many different independent Y variables or features that our mode
 
 
 
-## Week-2 Review
-
-## Database Extract, Transform and Load
-
-After exploration the data in first week. The data was incomplete, messy and did not yield good results after parsing through our first ML model. Furthermore, we have more than one question business question, therefore we need to implement other ML models to answer those questions. 
-Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and freshest dataset.
-
-With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore the data integrity is preserved. 
-
-We extracted data from kaggle, IMDB, Wikipedia, the-numbers and movielens. We cleaned up data and loaded in SQL using the following code: 
-
-(code link will be added here)
-
-also we updated the ERD as follows: 
-
-<img width="869" alt="image" src="https://user-images.githubusercontent.com/93067732/161844877-f55c1789-5877-4228-8f9b-6f7d4669ef59.png">
-
-
-## Tableau Dashboard
-
-The Tableau dashboard link is below:
-
-Disney's Movies Revenue Dashboard:
-
-https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
-
-<img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
-
-## Machine Learning
-
-### K-means Clustering Model
-#### Analysis & Visualization
-While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
-
-#### ML clusters visualization
-
-![Cluster_3D_Visualisation](https://user-images.githubusercontent.com/93067732/161400139-6679db11-d4ce-4166-8d8b-9462a57eabeb.png)
-
-### Nearest Neighbour
-K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
-
-## Week-3 Review
 
 
 

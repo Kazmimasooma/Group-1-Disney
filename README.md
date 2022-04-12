@@ -1,50 +1,27 @@
 # Group-1-Project-Movie-Recommendation-System
 
-## Introduction
+## Project Overview: 
 
-As it is well known, Disney Parks, Interactive, Toys, Merchandise, Franchise, Games and TV Shows depends on a Disney blockbuster movie for story and characters in order to generate new revenue vehicles in these verticals based on those characters and their stories.
-
-Therefore, the first driver in all our Disney verticals starts with a Disney blockbuster movie. Given a dataset of 1391 movies from Disney Company blockbuster movies and Disney + TV, we will like to utilize machine learning to find out how these blockbuster movies & tv shows clusters based on user ratings & number of votes to make business decisions within the different Disney group verticals.
-
-
-## Project Overview 
-
-- In recent years the number of streaming sites have been increasing and with that we have access to an enormous amount of user data. 
+- In recent years the number of streaming sites has been increasing and with that we have access to an enormous amount of user data. 
 
 - We know a users watch history, movie ratings and what other similar movies or genres they like. 
 
-- Using this dataset we want to predict user preferences and how to market certain products based on their interests. 
+- Using this dataset, we want to predict user preferences and how to market certain products based on their interests. 
 
 - Our ML model will be providing recommendations based on Disney franchises. But can be used with other streaming datasets as well.
 
-
-## Why we selected this topic
-
-We can use our project in a variety of business scenarios:-
-
+## Why we selected this topic: 
+We can use our project in a variety of business scenarios: -
 ###### Product Placement in stores
-
-- Useful to companies like ToysRus, assume users who like Lion King also likes Toy story.
-
-- Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. 
-
-- Since both movies fall under Adventure genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not
-just dolls.
-
-###### Customer segmentation
-
-- If we can segment our customers into like minded groups. We can market more efficiently and target the right customers.
-
-- Assuming a customer loves the adventure genre, we can advertise more adventure themed merchandise or movies to them.
-
-###### Disney Park revenue
-
-- We can use our dataset to make informed decisions about the disney park rides 
-
+- Useful to companies like ToysRus, 
+Assumption:  users who like Lion King also likes Toy Story.  Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. Since both movies fall under Adventure genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not just dolls. The outcome can also help in planning the placements of merchabndising alongside and planning the store outlook.
+###### Customer Segmentation: 
+- We can segment our customers into like minded groups. We can market more efficiently and target the right customers.
+Assumption:  If a particular cluster of customers love the adventure genre, we can advertise more adventure themed merchandise or movies to them.
+###### Disney Park revenue: 
+- We can use our dataset to make informed decisions about the Disney park rides 
 - We can put Lion King & Toy Story themed rides beside each other. 
-
-- In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous  demographic.
-
+- In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous demographic.
 
 ## Decomposing the Task
 
@@ -62,27 +39,24 @@ Think from business point of view. Example of what our system can produce:-
 
 ## Questions the team hopes to answer with the data
 
-1- How can we utilize users watch history data to help out other companies with product placement?
-
+1- How can we utilize users watch history data to help other companies with product placement?
 2- Can we accurately predict user preferences and help companies market more effectively? Why or why not?
+
 
 
 ## Data Collection / Identify Data Source
 
-Data Sources: 
-
+#### Data Sources
 - Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset
 - Disney Movie Ratings dataset: https://www.kaggle.com/dikshabhati2002/walt-disney-movies
 - MovieLens Users Ratings dataset: https://grouplens.org/datasets/movielens/
+- Toy Sales Amazon dataset: https://www.kaggle.com/PromptCloudHQ/toy-products-on-amazon
 
-As Disney corporation, we will assume that we are provided with this information at the start, which may be accessed here: https://www.the-numbers.com/movies/distributor/Walt-Disney#tab=year
-
-
-KPIs ( What and When)
-
-- Revenue - Toys,Parks, Movies, Franchise(?)
+#### KPIs (What and When)
+- Revenue - Toys, Parks, Movies, Franchise
 - Ratings
 - Number of users who rated / movie
+
 
 ## Week-1 Review
 
@@ -185,6 +159,8 @@ While we have completed our first ML model using K-means clustering, we have als
 
 ### Nearest Neighbour
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
+
+## Week-3 Review
 
 
 

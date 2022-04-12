@@ -65,12 +65,11 @@ GroupLens Research has collected and made available rating data sets from the Mo
 
 ## Database Extract, Transform and Load
 After exploration the data initially. We found that the data was incomplete, messy and did not yield good results after parsing through our first ML model. Furthermore, we have more than one business questions, therefore we need to implement more than one ML models to answer those questions. 
-Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and freshest dataset.
+Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and latest dataset.
 With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore, the data integrity is preserved. 
 
-![IMDB_scrape_code_snippet]
+![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/162882598-4ada9c91-9638-4fbf-b705-f665f7c80dda.png)
 
-<img width="809" alt="image" src="https://user-images.githubusercontent.com/93067732/162882598-4ada9c91-9638-4fbf-b705-f665f7c80dda.png">
 
 ## ERD 
 

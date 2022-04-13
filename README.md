@@ -182,6 +182,9 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 
 ![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163075912-e0767b43-964e-4101-ad1d-ea6bfd7db3de.gif)
 
+### Accuracy Score
+
+ ![accuracy](Image/LOOCV_Accuracy_Score.png)
 
 ## Team Communication and Project Methodology
 

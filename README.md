@@ -12,7 +12,7 @@ These merchandise and attractions will provide Disney with a steady and predicta
 As such, we have created 2 ML models that help us understand how to generate ongoing revenue using the verticals mentioned.
 
 
-#### Why we selected this topic: 
+### Why we selected this topic: 
 When we looked at the revenue figures, it is very clear that the box office revenue is just the starting point in Disneys revenue.
 
 Revenue derived from merchadise sales and Disney park ticket is just as; if not more important.
@@ -21,13 +21,10 @@ As this graph shows us that 'Disney Studios Revenue' or the box office revenue i
 
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 
-#### Questions the team hopes to answer with the data
+### Questions the team hopes to answer with the data
 
-* How can we utilize users watch history data to help other companies with product placement?
-* Can we accurately predict user preferences and help companies market more effectively? Why or why not?
-
-
-
+* How are the movies grouped (Movie clusters)?
+* What are the closest neighbours to the movies?
 
 
 ## Decomposing the Task

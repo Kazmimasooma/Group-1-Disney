@@ -151,15 +151,21 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 ### Feature Engineering
 
+#### Features Selection
+
 From the dataset collected, we have selected these 4 values as our input features:
 1. Genres
 2. MPAA Ratings
 3. IMDB Average Rating
 4. IMDB Total Votes (which shows how many people have rated the movie)
 
+#### Features Preprocessing - Binning
+
 Firstly, the dataset we have is imbalance and noisy. Therefore during data preprocessing stage, the outliers were binned for better performance.
 * Genres was reduced from 29 to 22
 * MPAA Rating was reduced from 14 to 8
+
+#### Features Preprocessing - Encoding
 
 In order for our ML model to process these features, we also need to encode and scale the features, please see below for what we did with each feature:
 1. Genres - **OneHotEncoder**
@@ -167,7 +173,7 @@ In order for our ML model to process these features, we also need to encode and 
 3. IMDB Average Rating - **MinMaxScaler**
 4. IMDB Total Votes - **MinMaxScaler**
 
-#### Elbow curve
+### Elbow curve
 
 ![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
 
@@ -244,4 +250,3 @@ CREATE TABLE gross_revenue (
 	inflation_adjusted_gross int   NOT NULL
 	);
 ```
-

@@ -12,7 +12,8 @@ These merchandise and attractions will provide Disney with a steady and predicta
 As such, we have created 2 Machine Learning (ML) models that help us understand how to generate ongoing revenue using the verticals mentioned.
 
 
-### Why we selected this topic: 
+### Why we selected this topic
+
 When we looked at the revenue figures, it is very clear that the box office revenue is just the starting point in Disney's revenue.
 
 Revenues derived from franchises, collaborations merchandise sales and Disney Parks are just as important.

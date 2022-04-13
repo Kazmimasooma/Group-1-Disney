@@ -100,7 +100,7 @@ We used the following methods from the following websites:-
 
 * **IMDb** - API
 * **Wikipedia** - Web scrape
-* **Movie lens** - Download dataset
+* **Movie lens** - research dataset from https://grouplens.org/datasets/movielens/
 * **The numbers** - Tried scraping but the website blocked scraping since 2016, so just manually copied some datasets
 
 

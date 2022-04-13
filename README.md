@@ -26,6 +26,8 @@ As this graph shows us that 'Disney Studios Revenue' or the box office revenue i
 * How are the movies grouped (Movie clusters)?
 * What are the closest neighbours to the movies?
 
+![image](https://user-images.githubusercontent.com/93144225/163098335-f3cb832c-d3d0-4d1a-b01b-3baf5b9ca96c.png)
+
 
 ## Decomposing the Task
 

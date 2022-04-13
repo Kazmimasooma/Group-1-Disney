@@ -90,7 +90,7 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 
 
 
-## Machine Learning
+## Machine Learning (SUYIN)
 
 We intend to use a Unsupervised Machine Learning model, specifically K-means clustering. We have a couple of questions to answer using the ML model, and know that by using historical data, we will see a relationship between a movies, user data, revenue etc to predict the user preference trends. 
 
@@ -132,7 +132,7 @@ In order for our ML model to process these features, we also need to encode and 
 4. IMDB Total Votes - **MinMaxScaler**
 
 
-## Database: 
+## Database (JUDAT)
 
 #### Description of the Data source: 
 

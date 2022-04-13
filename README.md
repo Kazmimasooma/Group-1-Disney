@@ -21,7 +21,7 @@ The charts below shows that 'Disney Studios Revenue' from movies is just one of 
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 
 
-### How will our ML model helps in generating ongoing revenue using the verticals mentioned?
+### How Will the Machine Learning Models Assists in Other Business Verticals?
 
 Our ML models shows that movies grouping (or clusters) and their closest corresponding neighbours.
 
@@ -68,14 +68,14 @@ https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jw
 
 ### Tableau Dashboard
 
-#### Disney's Revenue by Business Line - Dashboard
+#### Disney's Revenue by Business Groups
 
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
 
 <img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
 
 
-#### Disney's Movies Revenue Dashboard
+#### Disney's Movies Revenue
 
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
 
@@ -85,8 +85,7 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 ### Data Exploration
 
 #### WEEK 1 to WEEK 2
-Initially we scoured sites liked Kaggle.com for datasets and eventually decided on a few.
-After the initial Exploratory Data Analysis (EDA) on multiple datasets, we discovered high inconsistencies within the data. The data was incomplete, messy and did not yield good results after parsing through the first ML model. 
+The first datasets are from Kaggle.com. After the initial Exploratory Data Analysis (EDA) on multiple datasets, we discovered high inconsistencies within the data. The data was incomplete, messy and did not yield good results after parsing through the first ML model. 
 
 ![EDA v1](https://user-images.githubusercontent.com/93144225/163206164-8d0de522-edac-43fb-ad74-2e1754e5e481.png)
 

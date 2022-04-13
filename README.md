@@ -41,7 +41,7 @@ Through the help of data and ML models we can make informed business decisions w
 
 ### How Can the Machine Learning Model Help?
 
-* Traditional and digital marketings will be targetted at specific groups making it more cost-efficient and yield higher success rate.
+* Traditional and digital marketings will be targeted at specific groups making it more cost-efficient and yield higher success rate.
 
 * When building new attractions at Disney World, we now have a deeper understanding of what the target group prefers, example, a more thrilling rollercoaster ride versus an easy going one. 
 

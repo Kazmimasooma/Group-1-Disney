@@ -73,7 +73,7 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 ## ERD 
 
-<img width="869" alt="image" src="https://user-images.githubusercontent.com/93067732/161844877-f55c1789-5877-4228-8f9b-6f7d4669ef59.png">
+![Disney ERD](https://user-images.githubusercontent.com/93067732/163077392-571dd0fa-b0d5-4fb2-bcb4-bd115ccc7954.png)
 
 ## SQL
 
@@ -159,7 +159,7 @@ We intend to use a Unsupervised Machine Learning model, specifically K-means clu
 
 ### K-means Clustering Model
 
-![K_Means_Clustering](https://user-images.githubusercontent.com/93067732/163075378-7f8fa024-8d50-4ecb-b218-c9eb9fed17f3.png)
+![K-Means Clustering](https://user-images.githubusercontent.com/93067732/163075597-9096c509-6624-4a32-9ad1-fab52de665be.gif)
 
 
 #### Analysis & Visualization
@@ -173,7 +173,7 @@ While we have completed our first ML model using K-means clustering, while it fu
 ### Nearest Neighbour
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
 
-![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163074537-bef43d9c-71df-40b3-a9b9-b3c6e6ef88f2.png)
+![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163075912-e0767b43-964e-4101-ad1d-ea6bfd7db3de.gif)
 
 
 ### Feature Engineering

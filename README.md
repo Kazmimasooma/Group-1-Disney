@@ -46,7 +46,7 @@ Through the help of data and ML models we can make informed business decisions w
 
 * When building new attractions at Disney World, we can pinpoint what type of ride it should be, should it be more thrilling like a rollercoaster or an easy going ride.
 
-* We can also know where to place ride, example 'Toy Story' and 'Lion king' rides closer to each other. This will encourage more visitors to buy tickets for both the rides as they are at a close proximity.
+* We can also know where to place ride, example 'Toy Story' and 'Lion king' rides closer to each other. This will encourage more visitors to buy tickets for both the rides due to the close proximity.
 
 * Since we know the closest movie neighbours we can use this information for product placement, example Lion King merchandise beside Toy Story merchandise, where customers are likely to buy both and ultimately increasing our merchandise sales.
 

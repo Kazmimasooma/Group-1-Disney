@@ -182,6 +182,12 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 
 ![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163075912-e0767b43-964e-4101-ad1d-ea6bfd7db3de.gif)
 
+
+### Hyper Parameter Tuning
+
+Grid Search uses a different combination of all the specified hyperparameters and their values and calculates the performance for each combination and selects the best value for the hyperparameters. GridSearchCV, along with Grid Search, cross-validation is also performed. Cross-Validation is used while training the model. As we know that before training the model with data, we divide the data into two parts – train data and test data. In cross-validation, the process divides the train data further into two parts – the train data and the validation data.
+We used GridSearchCV to find the best hyper parameters for the KNN model and also for the accuracy score KNN Classifier test. 
+
 ### Accuracy Score
 
 While it is not possible to compute accuracy score for unsupervised ML with K-Means Clustering and K-Nearest Neigbors as there are no ground truth labels to measure against. Therefore we have used the K-means cluster classes as the y prediction in order to produce an accuracy score metrics.

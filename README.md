@@ -132,7 +132,7 @@ In order for our ML model to process these features, we also need to encode and 
 4. IMDB Total Votes - **MinMaxScaler**
 
 
-## Database (JUDAT)
+## Database (SUYIN)
 
 #### Description of the Data source: 
 
@@ -168,10 +168,6 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 ## ERD 
 
 ![Disney ERD](https://user-images.githubusercontent.com/93067732/163077392-571dd0fa-b0d5-4fb2-bcb4-bd115ccc7954.png)
-
-## SQL
-
-![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
 
 #### Connect to SQL
 
@@ -219,6 +215,9 @@ CREATE TABLE gross_revenue (
 	inflation_adjusted_gross int   NOT NULL
 	);
 ```
+## SQL
+
+![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
 
 ## Team Communication and Project Methodology
 

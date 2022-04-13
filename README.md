@@ -188,6 +188,12 @@ Firstly, the dataset we have is imbalance and noisy. Therefore during data prepr
 * Genres was reduced from 29 to 22
 * MPAA Rating was reduced from 14 to 8
 
+In order for our ML model to process these features, we also need to encode and scale the features, please see below for what we did with each feature:
+1. Genres - OneHotEncoder
+2. MPAA Ratings - LabelEncoder
+3. IMDB Average Rating - MinMaxScaler
+4. IMDB Total Votes - MinMaxScaler
+
 
 ## Team Communication and Project Methodology
 

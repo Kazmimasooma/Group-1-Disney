@@ -116,9 +116,14 @@ We performed EDA on multiple datasets and found out they were filled with incons
 
 ##### WEEK 3 to WEEK 4
 
-We decided to start Web scraping instead of looking for better datasets,we scraped from IMDB and got excellent results.
+We decided to start Web scraping instead of looking for better datasets. We used the following methods from the following websites:-
 
-We cleaned up a few things and catered the dataset to our requirements and finalized everything. Tied up a few loose ends and deplyed out dataset into our SQL database.
+* IMDb- API
+* Wikipedia- Web scrape
+* Movie lens- Download dataset
+* The numbers- Tried scraping but the website blocked scraping from 2016, so just manually copied some datasets
+
+We cleaned up a few things and catered the dataset to our requirements and finalized everything. Tied up a few loose ends and deployed out dataset into our SQL database.
 
 #### Data Preparation / Data Retrieval plan / Assemble and Clean Data
 

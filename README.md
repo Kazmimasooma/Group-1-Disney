@@ -108,20 +108,23 @@ loren ipsum
 ![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
 
-## Database (SUYIN)
+LOREN IPSUM
+
+## Data Extract
+
+We decided to pivot and made the decision to use API and web scrape for the information from IMDd and Wikipedia for the most comprehensive and latest dataset.
+With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as imdbId will match IMDB database whenever we scrape for new information from IMDB in the future therfore eliminating potential data duplication. This way, the data integrity is preserved. 
+
+![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
+
 
 ### Description of the Data
 
 LOREN IPSUM
 
-## Data Extract
-
-We decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and latest dataset.
-With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore, the data integrity is preserved. 
-
-![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
-
 ## Data Transformation and Load
+
+## Database (SUYIN)
 
 ### ERD 
 

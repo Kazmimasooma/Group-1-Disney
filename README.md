@@ -55,7 +55,7 @@ Through the help of data and ML models we can make informed business decisions w
 
 ![image](https://user-images.githubusercontent.com/93144225/163098335-f3cb832c-d3d0-4d1a-b01b-3baf5b9ca96c.png)
 
-## Data Source
+## Data Source (SUYIN)
 
 loren ipsum
 
@@ -132,48 +132,6 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 ![SQLAlchemy_Sending_Data](https://user-images.githubusercontent.com/93067732/163075291-2ad3c097-312d-4012-97ad-c3bce89dcb07.png)
 
-
-#### SQL SCHEMA
-
-```
-CREATE TABLE movies (
-	imdb_id varchar   NOT NULL PRIMARY KEY,
-	title varchar   NOT NULL,
-	year int   NOT NULL,
-	rated varchar   NOT NULL,
-	released date   NOT NULL,
-	runtime int   NOT NULL,
-	imdb_rating float   NOT NULL,
-	imdb_votes int   NOT NULL,
-	genres varchar   NOT NULL
-	);
-
-CREATE TABLE language_country (
-	lc_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	language archer   NOT NULL,
-	country varchar   NOT NULL
-	);
-
-CREATE TABLE awards (
-	awards_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	awards archer   NOT NULL
-	);
-
-CREATE TABLE metascore (
-	ms_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	metascore varchar   NOT NULL
-	);
-
-CREATE TABLE gross_revenue (
-	rev_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	total_gross int   NOT NULL,
-	inflation_adjusted_gross int   NOT NULL
-	);
-```
 ## SQL
 
 ![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
@@ -232,4 +190,48 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 ### Recommendation for future analysis
 
 ### Anything the team would have different
+
+## Appendix
+
+#### SQL SCHEMA
+
+```
+CREATE TABLE movies (
+	imdb_id varchar   NOT NULL PRIMARY KEY,
+	title varchar   NOT NULL,
+	year int   NOT NULL,
+	rated varchar   NOT NULL,
+	released date   NOT NULL,
+	runtime int   NOT NULL,
+	imdb_rating float   NOT NULL,
+	imdb_votes int   NOT NULL,
+	genres varchar   NOT NULL
+	);
+
+CREATE TABLE language_country (
+	lc_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	language archer   NOT NULL,
+	country varchar   NOT NULL
+	);
+
+CREATE TABLE awards (
+	awards_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	awards archer   NOT NULL
+	);
+
+CREATE TABLE metascore (
+	ms_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	metascore varchar   NOT NULL
+	);
+
+CREATE TABLE gross_revenue (
+	rev_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	total_gross int   NOT NULL,
+	inflation_adjusted_gross int   NOT NULL
+	);
+```
 

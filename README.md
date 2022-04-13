@@ -9,7 +9,7 @@ But what if we could extend that revenue lifespan. What if we could leverage the
 Disney can release a variety of merchandise (Toys, Video games, Apparel, etc) tied to their movies. As well as making new Disney park attractions.
 These merchandise and attractions will provide Disney with a steady and predictable stream of revenue for a very long time.
 
-As such, we have created 2 Machine Learning models that help us understand how to generate ongoing revenue using the verticals mentioned.
+As such, we have created 2 Machine Learning (ML) models that help us understand how to generate ongoing revenue using the verticals mentioned.
 
 
 ### Why we selected this topic: 
@@ -22,21 +22,21 @@ The charts below shows that 'Disney Studios Revenue' from movies is just one par
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 
 
-#### How is our ML model helping us understand how to generate ongoing revenue using the verticals mentioned?
+#### How will our ML model helps in generating ongoing revenue using the verticals mentioned?
 
-Our ML models tells us how the movies are grouped (Movie clusters) and what their closest neighbours are.
+Our ML models shows that movies grouping (or clusters) and their closest corresponding neighbours.
 
-* Assume our first ML model says Toy story is the closest neighbour to Lion King and their genre and MPAA rating is “Adventure” and “Teen”
+* Assume our first ML model says Toy story is the closest neighbour to Lion King and their genre is **Adventure** and MPAA rating **Teen**
 
-	* This tells us that our target audience are teenagers and above and they have an adventurous mindset.
+	* This tells us that our target audience are teenagers and older witn an adventurous mindset.
 
-	* As a result any merchandise or rides we make based on these movies have to be catered toward that demographic.
+		* As a result any merchandise or rides we make based on these movies have to be catered toward that demographic.
 
-	* The rides have to be more thrilling instead of easy going, for e.g a rollercoaster
+		* The rides have to be more thrilling instead of easy going, for e.g a rollercoaster
 
-	* Same for the merchandise, instead of dolls we can go with action figures
+		* Same for the merchandise, instead of dolls we can go with action figures
 
-	* Any video games would have to be adventure games instead of puzzle games
+		* Any video games would have to be adventure games instead of puzzle games
 
 Through the help of data and ML models we can make informed business decisions which greatly mitigates our risk factor. Here are some ways ML can help us:-
 

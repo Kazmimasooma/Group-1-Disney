@@ -184,7 +184,7 @@ In order for our ML model to process these features, we also need to encode and 
 
 ### Elbow curve
 
-After plotting and elbow curve with the features above, it is clear that there are **3 strong groups** within these movies with the **inertia / coefficient of 5.416e+3 or 5416 in decimal terms.** Please see below.
+After plotting and elbow curve with the features above, it is clear that there are **3 strong groups** within these movies with the **inertia / coefficient of 4.194e+3 or 4194 in decimal terms.** Please see below.
 
  ![elbow_curve](Image/Elbow_Curve.gif)
 

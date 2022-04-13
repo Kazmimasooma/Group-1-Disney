@@ -50,7 +50,10 @@ The presentation draft can be found in the following link below:
 
 https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
 
-## Tableau Dashboard
+
+## Data analysis and visualization (AKIN)
+
+### Tableau Dashboard
 
 We created Tableau to give following visualizations, which helped us with greater insights of data and also improve our presentation that can be easily understandable by the investors.  
 
@@ -69,6 +72,10 @@ Disney's Movies Revenue Dashboard:
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
 
 <img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
+
+
+
+
 
 ## Machine Learning
 

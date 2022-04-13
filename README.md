@@ -178,7 +178,11 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 
 ### Feature Engineering
 
-We’ll analyze many different independent Y variables or features that our model will learn from.  
+From the dataset collected, we have selected these 4 values as our input features:
+1. Genres
+2. MPAA Ratings
+3. IMDB Average Rating
+4. IMDB Total Votes (which shows how many people have rated the movie)
 
 ## Team Communication and Project Methodology
 

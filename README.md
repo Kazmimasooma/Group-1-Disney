@@ -10,7 +10,7 @@ These merchandise and attractions will provide Disney with a steady and predicta
 Therefore, we have implemented 2 Machine Learning (ML) models to help us understand how to generate revenue on the verticals mentioned above.
 
 
-### Why we selected this topic
+### Why We Selected This Topic
 
 When we looked at the revenue figures, it is very clear that the box office revenue is just the starting point in Disney's revenue.
 
@@ -39,7 +39,7 @@ Our ML models shows that movies grouping (or clusters) and their closest corresp
 
 Through the help of data and ML models we can make informed business decisions which greatly mitigates risk and increases our probability of success. 
 
-### Here are some ways ML can help us
+### How Can the Machine Learning Model Help?
 
 * Traditional and digital marketings will be targetted at specific groups making it more cost-efficient and yield higher success rate.
 
@@ -49,7 +49,7 @@ Through the help of data and ML models we can make informed business decisions w
 
 * Since we know the closest movie neighbours we can use this information for product placement, example Lion King merchandise beside Toy Story merchandise, where customers are likely to buy both and ultimately increasing our merchandise sales.
 
-### Questions the team hopes to answer with the data
+### Questions the Team Wants to Answer
 
 1. How are the movies grouped and what kind of similarities pattern do they exhibit?
 2. Which movies are closely grouped together, indicated by a certain granularity.
@@ -95,7 +95,9 @@ We performed EDA on multiple datasets and discovered high inconsistencies within
 #### WEEK 3 to WEEK 4
 
 When we could not find better datasets, we came to the executive decision to use API and webscraping to get latest and most accurate data. 
+
 We used the following methods from the following websites:-
+
 * **IMDb** - API
 * **Wikipedia** - Web scrape
 * **Movie lens** - Download dataset

@@ -19,7 +19,9 @@ Revenue derived from merchadise sales and Disney park ticket is just as; if not 
 
 As this graph shows us that 
 
-![image](https://user-images.githubusercontent.com/93144225/163092339-5c25986b-40ab-4578-972a-15a2b3582630.png)
+<img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
+
+
 
 
 

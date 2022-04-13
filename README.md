@@ -68,8 +68,6 @@ https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jw
 
 ### Tableau Dashboard
 
-Tableau for greater insights into our findings.  
-
 #### Disney's Revenue by Business Line - Dashboard
 
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes

@@ -9,15 +9,15 @@ But what if we could extend that revenue lifespan. What if we could leverage the
 Disney can release a variety of merchandise (Toys, Video games, Apparel, etc) tied to their movies. As well as making new Disney park attractions.
 These merchandise and attractions will provide Disney with a steady and predictable stream of revenue for a very long time.
 
-As such, we have created 2 ML models that help us understand how to generate ongoing revenue using the verticals mentioned.
+As such, we have created 2 Machine Learning models that help us understand how to generate ongoing revenue using the verticals mentioned.
 
 
 ### Why we selected this topic: 
-When we looked at the revenue figures, it is very clear that the box office revenue is just the starting point in Disneys revenue.
+When we looked at the revenue figures, it is very clear that the box office revenue is just the starting point in Disney's revenue.
 
-Revenue derived from merchadise sales and Disney park ticket is just as; if not more important.
+Revenues derived from franchises, collaborations merchandise sales and Disney Parks are just as important.
 
-As this graph shows us that 'Disney Studios Revenue' or the box office revenue is just one part of the equation. Revenue generated from the other sectors have exponentially grown over the years and helps Disney diversify its revenue portfolio. This in turn creates a much reliable and sustainable revenue model.
+The charts below shows that 'Disney Studios Revenue' from movies is just one part of the equation. Revenues generated from the other business groups have exponentially grown over the years and helps Disney diversify its revenue portfolio. This in turn creates a longer, more reliable and sustainable revenue model.
 
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 

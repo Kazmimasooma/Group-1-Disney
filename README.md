@@ -25,7 +25,7 @@ The charts below shows that 'Disney Studios Revenue' from movies is just one of 
 
 Our ML models shows that movies grouping (or clusters) and their closest corresponding neighbours.
 
-* Assume our first ML model says Toy story is the closest neighbour to Lion King and their genre is **Adventure** and MPAA rating **Teen**
+* Assume our first ML model shows that **Toy Story** is the closest neighbour to **Lion King** and the genre is **Adventure** and MPAA rating **Teen**
 
 	* This tells us that our target audience are teenagers and older witn an adventurous mindset.
 

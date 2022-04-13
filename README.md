@@ -114,7 +114,7 @@ We performed EDA on multiple datasets and found out they were filled with incons
 ![EDA v1](https://user-images.githubusercontent.com/93144225/163206164-8d0de522-edac-43fb-ad74-2e1754e5e481.png)
 
 
-##### WEEK 3 and WEEK 4
+##### WEEK 3 to WEEK 4
 
 We decided to start Web scraping instead of looking for better datasets,we scraped from IMDB and got excellent results.
 

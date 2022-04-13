@@ -43,93 +43,6 @@ Thinking from business point of view. Example of what our system can produce: -
 
 
 
-## Data Collection / Identify Data Source
-
-#### Data Sources
-- kaggle.com
-Walt Disney Character Dataset
-Contains data about Walt Disney characters
-- kaggle.com
-Walt Disney Movies
-Walt Disney Movie dataset
-- GroupLens
-GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of time, depending on the size of the set.
-- IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
-
-## Data Preparation / Data Retrieval plan / Assemble and Clean Data
-
-(NEED TO IMPROVE THIS PART)
-- EDA: Exploratory Data Analysis
-* Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset 
-- Data Preparation
-- Data Specific Method: Content-based filtering
-- 
-#### Technical Flow Diagram
-![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
-
-## Data Extract, Transform and Load
-After exploration the data initially. We found that the data was incomplete, messy and did not yield good results after parsing through our first ML model. Furthermore, we have more than one business questions, therefore we need to implement more than one ML models to answer those questions. 
-Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and latest dataset.
-With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore, the data integrity is preserved. 
-
-
-![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
-
-## ERD 
-
-![Disney ERD](https://user-images.githubusercontent.com/93067732/163077392-571dd0fa-b0d5-4fb2-bcb4-bd115ccc7954.png)
-
-## SQL
-
-![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
-
-#### Connect to SQL
-
-![SQLAlchemy_Sending_Data](https://user-images.githubusercontent.com/93067732/163075291-2ad3c097-312d-4012-97ad-c3bce89dcb07.png)
-
-
-#### SQL SCHEMA
-
-```
-CREATE TABLE movies (
-	imdb_id varchar   NOT NULL PRIMARY KEY,
-	title varchar   NOT NULL,
-	year int   NOT NULL,
-	rated varchar   NOT NULL,
-	released date   NOT NULL,
-	runtime int   NOT NULL,
-	imdb_rating float   NOT NULL,
-	imdb_votes int   NOT NULL,
-	genres varchar   NOT NULL
-	);
-
-CREATE TABLE language_country (
-	lc_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	language archer   NOT NULL,
-	country varchar   NOT NULL
-	);
-
-CREATE TABLE awards (
-	awards_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	awards archer   NOT NULL
-	);
-
-CREATE TABLE metascore (
-	ms_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	metascore varchar   NOT NULL
-	);
-
-CREATE TABLE gross_revenue (
-	rev_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	total_gross int   NOT NULL,
-	inflation_adjusted_gross int   NOT NULL
-	);
-```
-
 ## Presentation
 
 We initiated the presentation data in Google slides.
@@ -214,4 +127,91 @@ In order for our ML model to process these features, we also need to encode and 
 - Google Share Drive
 - Zoom meetings
 - Agile - Scrum
+
+## Database: 
+
+#### Description of the Data source: 
+
+- kaggle.com Walt Disney Movies Walt Disney Movie dataset
+- GroupLens GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of       time, depending on the size of the set.
+- IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
+
+#### Data Expolration: 
+
+(Tanzim) 
+
+#### Data Preparation / Data Retrieval plan / Assemble and Clean Data
+
+(NEED TO IMPROVE THIS PART)
+- EDA: Exploratory Data Analysis
+* Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset 
+- Data Preparation
+- Data Specific Method: Content-based filtering
+- 
+#### Technical Flow Diagram
+
+![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
+
+## Data Extract, Transform and Load
+
+After exploration the data initially. We found that the data was incomplete, messy and did not yield good results after parsing through our first ML model. Furthermore, we have more than one business questions, therefore we need to implement more than one ML models to answer those questions. 
+Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and latest dataset.
+With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore, the data integrity is preserved. 
+
+
+![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
+
+## ERD 
+
+![Disney ERD](https://user-images.githubusercontent.com/93067732/163077392-571dd0fa-b0d5-4fb2-bcb4-bd115ccc7954.png)
+
+## SQL
+
+![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
+
+#### Connect to SQL
+
+![SQLAlchemy_Sending_Data](https://user-images.githubusercontent.com/93067732/163075291-2ad3c097-312d-4012-97ad-c3bce89dcb07.png)
+
+
+#### SQL SCHEMA
+
+```
+CREATE TABLE movies (
+	imdb_id varchar   NOT NULL PRIMARY KEY,
+	title varchar   NOT NULL,
+	year int   NOT NULL,
+	rated varchar   NOT NULL,
+	released date   NOT NULL,
+	runtime int   NOT NULL,
+	imdb_rating float   NOT NULL,
+	imdb_votes int   NOT NULL,
+	genres varchar   NOT NULL
+	);
+
+CREATE TABLE language_country (
+	lc_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	language archer   NOT NULL,
+	country varchar   NOT NULL
+	);
+
+CREATE TABLE awards (
+	awards_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	awards archer   NOT NULL
+	);
+
+CREATE TABLE metascore (
+	ms_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	metascore varchar   NOT NULL
+	);
+
+CREATE TABLE gross_revenue (
+	rev_id varchar   NOT NULL PRIMARY KEY,
+	imdb_id varchar   REFERENCES movies (imdb_id),
+	total_gross int   NOT NULL,
+	inflation_adjusted_gross int   NOT NULL
+	);
 

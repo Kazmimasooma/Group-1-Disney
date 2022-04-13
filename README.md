@@ -39,7 +39,7 @@ Our ML models shows that movies grouping (or clusters) and their closest corresp
 
 Through the help of data and ML models we can make informed business decisions which greatly mitigates risk and increases our probability of success. 
 
-### How Can the Machine Learning Model Help?
+### How Can the Machine Learning Models Help in Business Decisions?
 
 * Traditional and digital marketings will be targeted at specific groups making it more cost-efficient and yield higher success rate.
 

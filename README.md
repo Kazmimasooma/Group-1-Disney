@@ -1,22 +1,22 @@
 ## Project Overview
 
-Disney's primary source of revenue is movies and TV shows. Unfortunately this is not a sustainable model, as media has a very short lifespan when it comes to revenue. A new movie will at best provide income for a few months and then Disney moves on the next project.
+Disney's initial source of revenue begins with movies and TV shows. Unfortunately this is not a sustainable model, as studio production has a very short revenue lifespan. A new movie will at best provide income for a few months and then Disney will need to move on the next project.
 
-But what if we could extend that revenue lifespan. What if we could leverage the many Disney intellectual properties and continue to earn revenue for an extended amount of time after the initial movie release.
+But what if we could extend that revenue lifespan? What if we could leverage the many Disney intellectual properties and continue to earn revenue for an extended amount of time after the initial movie release.?
 
-Disney can release a variety of merchandise (Toys, Video games, Apparel, etc) tied to their movies. As well as making new Disney park attractions.
-These merchandise and attractions will provide Disney with a steady and predictable stream of revenue for a very long time.
+Disney can release a variety of merchandise (toys, video games, apparel, etc) based on their movies. As well as new themes for Disney Parks attractions.
+These merchandise and attractions will provide Disney with a steady and predictable stream of revenue with no expiration. 
 
-As such, we have created 2 Machine Learning (ML) models that help us understand how to generate ongoing revenue using the verticals mentioned.
+Therefore, we have implemented 2 Machine Learning (ML) models to help us understand how to generate revenue on the verticals mentioned above.
 
 
 ### Why we selected this topic
 
 When we looked at the revenue figures, it is very clear that the box office revenue is just the starting point in Disney's revenue.
 
-Revenues derived from franchises, collaborations merchandise sales and Disney Parks are just as important.
+However, revenues derived from franchises, collaborations merchandise sales and Disney Parks are just as important.
 
-The charts below shows that 'Disney Studios Revenue' from movies is just one part of the equation. Revenues generated from the other business groups have exponentially grown over the years and helps Disney diversify its revenues portfolio. This in turn creates a longer, more reliable and sustainable revenue model.
+The charts below shows that 'Disney Studios Revenue' from movies is just one of the many business groups within Disney. Revenues from the other business groups have exponentially grown over the years and helps Disney diversify its revenues portfolio. This in turn creates a longer, more reliable and sustainable revenue model.
 
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 

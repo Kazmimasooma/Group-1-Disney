@@ -57,14 +57,6 @@ Through the help of data and ML models we can make informed business decisions w
 
 ![image](https://user-images.githubusercontent.com/93144225/163098335-f3cb832c-d3d0-4d1a-b01b-3baf5b9ca96c.png)
 
-## Data Source (SUYIN)
-
-loren ipsum
-
-#### Technical Flow Diagram
-
-![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
-
 
 ## Presentation
 
@@ -88,6 +80,7 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusin
 
 <img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
 
+
 ### The Tableau dashboard link is below
 
 Disney's Movies Revenue Dashboard:
@@ -95,15 +88,6 @@ Disney's Movies Revenue Dashboard:
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
 
 <img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
-
-
-## Database (SUYIN)
-
-#### Description of the Data
-
-- kaggle.com Walt Disney Movies Walt Disney Movie dataset
-- GroupLens GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of       time, depending on the size of the set.
-- IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
 
 
 #### Data Exploration
@@ -127,14 +111,23 @@ We decided to start Web scraping instead of looking for better datasets. We used
 
 We cleaned up a few things and catered the dataset to our requirements and finalized everything. Tied up a few loose ends and deployed out dataset into our SQL database.
 
-#### Data Preparation / Data Retrieval plan / Assemble and Clean Data
+## Data Source (SUYIN)
 
-(NEED TO IMPROVE THIS PART)
-- EDA: Exploratory Data Analysis
-* Disney dataset: https://www.kaggle.com/maricinnamon/walt-disney-character-dataset 
-- Data Preparation
-- Data Specific Method: Content-based filtering
-- 
+loren ipsum
+
+#### Technical Flow Diagram
+
+![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
+
+
+## Database (SUYIN)
+
+#### Description of the Data
+
+- kaggle.com Walt Disney Movies Walt Disney Movie dataset
+- GroupLens GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of       time, depending on the size of the set.
+- IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
+
 
 ## Data Extract, Transform and Load
 

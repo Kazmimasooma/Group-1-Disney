@@ -86,17 +86,13 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 
 #### WEEK 1 to WEEK 2
 Initially we scoured sites liked Kaggle.com for datasets and eventually decided on a few.
-
-We performed EDA on multiple datasets and discovered high inconsistencies within the data.
+After the initial Exploratory Data Analysis (EDA) on multiple datasets, we discovered high inconsistencies within the data. The data was incomplete, messy and did not yield good results after parsing through the first ML model. 
 
 ![EDA v1](https://user-images.githubusercontent.com/93144225/163206164-8d0de522-edac-43fb-ad74-2e1754e5e481.png)
 
-
 #### WEEK 3 to WEEK 4
 
-When we could not find better datasets, we came to the executive decision to use API and webscraping to get latest and most accurate data. 
-
-We used the following methods from the following websites:-
+Therefore, from week 3 onwards, we collected our data directly from the source with the methods below:
 
 * **IMDb** - API
 * **Wikipedia** - Web scrape
@@ -117,19 +113,16 @@ loren ipsum
 
 ### Description of the Data
 
-- kaggle.com Walt Disney Movies Walt Disney Movie dataset
-- GroupLens GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of       time, depending on the size of the set.
-- IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
+LOREN IPSUM
 
+## Data Extract
 
-## Data Extract, Transform and Load
-
-After exploration the data initially. We found that the data was incomplete, messy and did not yield good results after parsing through our first ML model. Furthermore, we have more than one business questions, therefore we need to implement more than one ML models to answer those questions. 
-Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and latest dataset.
+We decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and latest dataset.
 With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore, the data integrity is preserved. 
 
-
 ![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
+
+## Data Transformation and Load
 
 ### ERD 
 
@@ -150,11 +143,11 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 #### Features Selection
 
-From the dataset collected, we have selected these 4 values as our input features:
+From the final dataset collected, we have selected these 4 values as our input features:
 1. Genres
 2. MPAA Ratings
 3. IMDB Average Rating
-4. IMDB Total Votes (which shows how many people have rated the movie)
+4. IMDB Total Votes (which shows how many people have rated a movie)
 
 #### Features Preprocessing - Binning
 

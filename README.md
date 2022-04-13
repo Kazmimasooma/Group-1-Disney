@@ -207,7 +207,7 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 * Get merchandise revenue datasets (toys, video games, apparel sales). This would strenthen our analysis and help us compare revenues more effectively.
 
 * Build a Sentiment Analysis System using Natural Language Processing (NLP) for all Disney Park reviews. Due to time constraint, we could not finish this part of the project that we started. The ML model here will give us a 360 understanding of our Disney Parks and improve on any potential shortcomings or problems. 
-* 
+
 
 ### Anything the team would have different
 

@@ -106,6 +106,13 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 
 #### Data Expolration (TANZIM)
 
+###### WEEK 1 to WEEK 2
+Initially we scoured sites liked Kaggle.com for datasets and eventually decided on a few.
+
+We performed EDA on multiple datasets and found out they were filled with inconsistencies. Then we decided to scrap all our work and start over again.
+
+
+
 #### Data Preparation / Data Retrieval plan / Assemble and Clean Data
 
 (NEED TO IMPROVE THIS PART)

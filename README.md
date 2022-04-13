@@ -111,6 +111,9 @@ Initially we scoured sites liked Kaggle.com for datasets and eventually decided 
 
 We performed EDA on multiple datasets and found out they were filled with inconsistencies. Then we decided to scrap all our work and start over again.
 
+![EDA v1](https://user-images.githubusercontent.com/93144225/163206164-8d0de522-edac-43fb-ad74-2e1754e5e481.png)
+
+
 
 
 #### Data Preparation / Data Retrieval plan / Assemble and Clean Data

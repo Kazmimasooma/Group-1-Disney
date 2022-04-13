@@ -28,34 +28,36 @@ Our ML models tells us how the movies are grouped (Movie clusters) and what thei
 
 * Assume our first ML model says Toy story is the closest neighbour to Lion King and their genre and MPAA rating is “Adventure” and “Teen”
 
-* This tells us that our target audience are teenagers and above and they have an adventurous mindset.
+	* This tells us that our target audience are teenagers and above and they have an adventurous mindset.
 
-* As a result any merchandise or rides we make based on these movies have to be catered toward that demographic.
+	* As a result any merchandise or rides we make based on these movies have to be catered toward that demographic.
 
-* The rides have to be more thrilling instead of easy going, for e.g a rollercoaster
+	* The rides have to be more thrilling instead of easy going, for e.g a rollercoaster
 
-* Same for the merchandise, instead of dolls we can go with action figures
+	* Same for the merchandise, instead of dolls we can go with action figures
 
-* Any video games would have to be adventure games instead of puzzle games
+	* Any video games would have to be adventure games instead of puzzle games
 
 Through the help of data and ML models we can make informed business decisions which greatly mitigates our risk factor. Here are some ways ML can help us:-
 
-* Marketting can be targetted at specific groups of customers making it more efficient and effective
+* Marketing can be targetted at specific groups of customers making it more efficient and effective
 
 * When building new attractions at Disney World, we can pinpoint what type of ride it should be (Should it be more thrilling like a rollercoaster or an easy going ride)
 
-* We can also know where to place rides (Eg. We can put 'Toy Story' and 'Lion king' rides next to each other). This will encourage more visitors to buy tickets for both the rides as they are at a close proximity.
+* We can also know where to place rides (Eg. We can put 'Toy Story' and 'Lion king' rides closer to each other). This will encourage more visitors to buy tickets for both the rides as they are at a close proximity.
 
-* Since we know the closest movie neighbours we can use this information for merchandise placement. Eg: Lion King merchandise beside Toy Story merchandise, making it more likely for customers to buy both toys.
+* Since we know the closest movie neighbours we can use this information for merchandise placement. For example, Lion King merchandise beside Toy Story merchandise, making it more likely for customers to buy both toys.
 
 ### Questions the team hopes to answer with the data
 
-* How are the movies grouped (Movie clusters)?
-* What are the closest neighbours to the movies?
+1. How are the movies grouped (Movie clusters)?
+2. What are the closest neighbours to the movies?
 
 ![image](https://user-images.githubusercontent.com/93144225/163098335-f3cb832c-d3d0-4d1a-b01b-3baf5b9ca96c.png)
 
 ## Data Source
+
+loren ipsum
 
 #### Technical Flow Diagram
 

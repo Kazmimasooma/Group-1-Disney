@@ -174,11 +174,13 @@ In order for our ML model to process these features, we also need to encode and 
 
 
 #### Analysis & Visualization
-While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
+While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been clustered together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
 
 
 ### Nearest Neighbour
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
+
+Using the same features, encoding and scaler, a KNN model is used to find only the 5 nearest neighbors to one movie. This produces a higher granularity for business decisions like where to build the latest ride in Disney Park. See the image below. 
 
 ![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163075912-e0767b43-964e-4101-ad1d-ea6bfd7db3de.gif)
 

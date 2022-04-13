@@ -184,6 +184,11 @@ From the dataset collected, we have selected these 4 values as our input feature
 3. IMDB Average Rating
 4. IMDB Total Votes (which shows how many people have rated the movie)
 
+Firstly, the dataset we have is imbalance and noisy. Therefore during data preprocessing stage, the outliers were binned for better performance.
+* Genres was reduced from 29 to 22
+* MPAA Rating was reduced from 14 to 8
+
+
 ## Team Communication and Project Methodology
 
 - Team Slack Channel

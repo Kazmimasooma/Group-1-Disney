@@ -68,8 +68,8 @@ After exploration the data initially. We found that the data was incomplete, mes
 Due to the above, we decided to pivot and made the decision to scrape for the information from IMDB and Wikipedia for the most comprehensive and latest dataset.
 With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as this imdbId will match to IMDB when we scrape for new information from IMDB in the future while eliminating potential data duplication. Therefore, the data integrity is preserved. 
 
-![IMDB_scrape_code_snippet](https://user-images.githubusercontent.com/93067732/162882598-4ada9c91-9638-4fbf-b705-f665f7c80dda.png)
 
+![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
 
 ## ERD 
 
@@ -77,11 +77,12 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 ## SQL
 
-<img width="827" alt="image" src="https://user-images.githubusercontent.com/93067732/162883596-363e5fbb-5db9-425d-be79-c89dc32199c7.png">
+![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
 
 #### Connect to SQL
 
-<img width="1016" alt="image" src="https://user-images.githubusercontent.com/93067732/162883821-25cdfe57-fd67-45c0-bb3e-ee7e82e5f108.png">
+![SQLAlchemy_Sending_Data](https://user-images.githubusercontent.com/93067732/163075291-2ad3c097-312d-4012-97ad-c3bce89dcb07.png)
+
 
 #### SQL SCHEMA
 
@@ -158,19 +159,22 @@ We intend to use a Unsupervised Machine Learning model, specifically K-means clu
 
 ### K-means Clustering Model
 
-<img width="855" alt="image" src="https://user-images.githubusercontent.com/93067732/162884041-358bc781-e601-4825-a3ad-19374a0c3730.png">
+![K_Means_Clustering](https://user-images.githubusercontent.com/93067732/163075378-7f8fa024-8d50-4ecb-b218-c9eb9fed17f3.png)
+
 
 #### Analysis & Visualization
 While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
 
 #### Elbow curve
 
-<img width="840" alt="image" src="https://user-images.githubusercontent.com/93067732/162884820-7d2a87d7-c8ae-4de9-95f3-6483285118d3.png">
+![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
+
 
 ### Nearest Neighbour
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
 
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/93067732/162882236-de675578-20f9-424c-9567-b6d9e80923cf.png">
+![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163074537-bef43d9c-71df-40b3-a9b9-b3c6e6ef88f2.png)
+
 
 ### Feature Engineering
 

@@ -104,9 +104,9 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 - IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
 
 
-#### Data Expolration (TANZIM)
+#### Data Exploration
 
-###### WEEK 1 to WEEK 2
+##### WEEK 1 to WEEK 2
 Initially we scoured sites liked Kaggle.com for datasets and eventually decided on a few.
 
 We performed EDA on multiple datasets and found out they were filled with inconsistencies. Then we decided to scrap all our work and start over again.
@@ -114,7 +114,11 @@ We performed EDA on multiple datasets and found out they were filled with incons
 ![EDA v1](https://user-images.githubusercontent.com/93144225/163206164-8d0de522-edac-43fb-ad74-2e1754e5e481.png)
 
 
+##### WEEK 3 and WEEK 4
 
+We decided to start Web scraping instead of looking for better datasets,we scraped from IMDB and got excellent results.
+
+We cleaned up a few things and catered the dataset to our requirements and finalized everything. Tied up a few loose ends and deplyed out dataset into our SQL database.
 
 #### Data Preparation / Data Retrieval plan / Assemble and Clean Data
 

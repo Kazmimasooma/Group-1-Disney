@@ -187,5 +187,5 @@ We’ll analyze many different independent Y variables or features that our mode
 - WhatsApp group
 - Google Share Drive
 - Zoom meetings
-- Agile - Scrum. 
+- Agile - Scrum
 

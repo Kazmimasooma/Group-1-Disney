@@ -218,7 +218,7 @@ CREATE TABLE gross_revenue (
 	total_gross int   NOT NULL,
 	inflation_adjusted_gross int   NOT NULL
 	);
-
+```
 
 ## Team Communication and Project Methodology
 

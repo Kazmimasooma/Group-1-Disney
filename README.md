@@ -140,9 +140,9 @@ In order for our ML model to process these features, we also need to encode and 
 - GroupLens GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of       time, depending on the size of the set.
 - IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
 
-#### Data Expolration: 
+#### Data Expolration (TANZIM)
 
-(Tanzim) 
+
 
 #### Data Preparation / Data Retrieval plan / Assemble and Clean Data
 
@@ -232,3 +232,6 @@ CREATE TABLE gross_revenue (
 ## Conclusion
 
 ### Recommendation for future analysis
+
+### Anything the team would have different
+

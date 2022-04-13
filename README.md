@@ -87,51 +87,6 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 <img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
 
 
-
-
-
-## Machine Learning (SUYIN)
-
-We intend to use a Unsupervised Machine Learning model, specifically K-means clustering. We have a couple of questions to answer using the ML model, and know that by using historical data, we will see a relationship between a movies, user data, revenue etc to predict the user preference trends. 
-
-### K-means Clustering Model
-
-![K-Means Clustering](https://user-images.githubusercontent.com/93067732/163075597-9096c509-6624-4a32-9ad1-fab52de665be.gif)
-
-
-#### Analysis & Visualization
-While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
-
-#### Elbow curve
-
-![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
-
-
-### Nearest Neighbour
-K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
-
-![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163075912-e0767b43-964e-4101-ad1d-ea6bfd7db3de.gif)
-
-
-### Feature Engineering
-
-From the dataset collected, we have selected these 4 values as our input features:
-1. Genres
-2. MPAA Ratings
-3. IMDB Average Rating
-4. IMDB Total Votes (which shows how many people have rated the movie)
-
-Firstly, the dataset we have is imbalance and noisy. Therefore during data preprocessing stage, the outliers were binned for better performance.
-* Genres was reduced from 29 to 22
-* MPAA Rating was reduced from 14 to 8
-
-In order for our ML model to process these features, we also need to encode and scale the features, please see below for what we did with each feature:
-1. Genres - **OneHotEncoder**
-2. MPAA Ratings - **LabelEncoder**
-3. IMDB Average Rating - **MinMaxScaler**
-4. IMDB Total Votes - **MinMaxScaler**
-
-
 ## Database (SUYIN)
 
 #### Description of the Data source: 
@@ -218,6 +173,48 @@ CREATE TABLE gross_revenue (
 ## SQL
 
 ![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
+
+
+## Machine Learning (SUYIN)
+
+### Feature Engineering
+
+From the dataset collected, we have selected these 4 values as our input features:
+1. Genres
+2. MPAA Ratings
+3. IMDB Average Rating
+4. IMDB Total Votes (which shows how many people have rated the movie)
+
+Firstly, the dataset we have is imbalance and noisy. Therefore during data preprocessing stage, the outliers were binned for better performance.
+* Genres was reduced from 29 to 22
+* MPAA Rating was reduced from 14 to 8
+
+In order for our ML model to process these features, we also need to encode and scale the features, please see below for what we did with each feature:
+1. Genres - **OneHotEncoder**
+2. MPAA Ratings - **LabelEncoder**
+3. IMDB Average Rating - **MinMaxScaler**
+4. IMDB Total Votes - **MinMaxScaler**
+
+We intend to use a Unsupervised Machine Learning model, specifically K-means clustering. We have a couple of questions to answer using the ML model, and know that by using historical data, we will see a relationship between a movies, user data, revenue etc to predict the user preference trends. 
+
+### K-means Clustering Model
+
+![K-Means Clustering](https://user-images.githubusercontent.com/93067732/163075597-9096c509-6624-4a32-9ad1-fab52de665be.gif)
+
+
+#### Analysis & Visualization
+While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
+
+#### Elbow curve
+
+![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
+
+
+### Nearest Neighbour
+K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
+
+![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163075912-e0767b43-964e-4101-ad1d-ea6bfd7db3de.gif)
+
 
 ## Team Communication and Project Methodology
 

@@ -101,7 +101,7 @@ Therefore, from week 3 onwards, we collected our data directly from the source w
 
 ## Data Source
 
-As mentioned above, we source our data directly from IMDb, Wikipedia, the-numbers.com. We have also used the genres information from MovieLens. 
+As mentioned above, we source our data directly from IMDb, Wikipedia and the-numbers.com. We have also used the genres information from MovieLens. 
 
 ### Technical Flow Diagram
 
@@ -111,9 +111,8 @@ First we collect all the data from the different sources indicated above either 
 
 ## Data Extract
 
-We decided to pivot and made the decision to use API and web scrape for the information from IMDd and Wikipedia for the most comprehensive and latest dataset.
-With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as imdbId will match IMDB database whenever we scrape for new information from IMDB in the future therfore eliminating potential data duplication. This way, the data integrity is preserved. 
-
+We decided to pivot and decided to use API and web scrape from IMDd and Wikipedia for the most comprehensive and latest dataset.
+With the new data from IMDb, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof our stored data as imdbId will always match IMDB database whenever we update new information from IMDB, thus eliminating potential data duplication. This way, the data integrity will always be preserved. 
 
 ### Description of the Data
 
@@ -121,15 +120,18 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 #### Information Collected
 
+The data below spans from _**1937 to 2021**_.
+
 * IMDb: Titles, Release Date, Metascore, Grammy Awards, Directors, Actors, Languages, Countries, IMDBRatings, IMDBVotes, Genres.
 * Wikipedia: Actors / Voice Actors, Directors, Disney Group Revenues (Disney Parks, Disney Merchandise, Disney Interactive, Disney Studios)
 * MovieLens: Titles, Genres
 * The-numbers.com:  Titles, Box Office Total Gross, Budget
 
+
 ## Data Transformation and Load
 
-1. The biggest bulk of work in this segment was transforming and aligning all the titles discrepencies with Regular Expression. 
-2. From the numerous datasets above, we combined and filled NULL values from different sources in order to enable all the Disney movies to have as much information as possible and reduce NaN in all columns.
+1. The biggest bulk of work in this segment was transforming and aligning all the movie titles discrepencies with Regular Expression. 
+2. From the numerous datasets above, we combined and filled NULL values from different sources to enable all the Disney movies to have as much information as possible and reduce NaN in all columns.
 3. The chosen data is then cleaned further and cast to their type for database. 
 
 ### ERD
@@ -141,7 +143,7 @@ The dataset is further normalised for SQL database. See below for a normalised d
 
 ## Database
 
-Once the data is ready for database storage, we connect to Postgres with SQL Alchemy and send the tables to our database. Please see the images below.
+Once the data is ready for database storage, we connect to Postgres with SQL Alchemy and send the data to the designated database. Please see the images below.
 
 ### Connect to SQL
 
@@ -164,13 +166,13 @@ From the final dataset collected, we have selected these 4 values as our input f
 3. IMDB Average Rating
 4. IMDB Total Votes (which shows how many people have rated a movie)
 
-While we could also include other features like Actors, Awards and Directors; these features do not have longer consistency as sometimes these people have either retired or passed away. These features can be important if our dataset is larger in the tens of thousands or millions. 
+While we could also include other features like Actors, Awards and Directors; these features do not have longer consistency as sometimes these people have either retired or passed away. These features can be important if our dataset is larger, in tens of thousands or millions.
 
 #### Features Preprocessing - Binning
 
 Firstly, the dataset we have is imbalance and noisy. Therefore during data preprocessing stage, the outliers were binned for better performance.
-* Genres was reduced from 29 to 22
-* MPAA Rating was reduced from 14 to 8
+* Genres was reduced from _**29 to 22**_
+* MPAA Rating was reduced from _**14 to 8**_
 
 #### Features Preprocessing - Encoding
 
@@ -188,17 +190,23 @@ After plotting and elbow curve with the features above, it is clear that there a
 
 ### K-means Clustering Model
 
+K-means clustering is a type of unsupervised learning, which is used when there is  unlabeled data. The goal of this algorithm is to find groups in the data, with the number of groups represented by the variable K.
+
 As indicated, the K-means Cluster model is generated with **K=3** as seen below. 
 
 ![K-Means Clustering](https://user-images.githubusercontent.com/93067732/163075597-9096c509-6624-4a32-9ad1-fab52de665be.gif)
 
 With this, we have completed our first ML model using K-means clustering. 
-While it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been clustered together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
+
+While it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been clustered together. Another drawback is there are 3 clusters within this dataset and each clusters have approximately 400 movies. At this point, we are unable to easily conclude which 2 movies are closest together for business decisions like where to build the next park ride or product placement as there is just too many movies in the same group. 
+
+Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
 
 ### Nearest Neighbour
+
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
 
-Using the same features, encoding and scaler, a KNN model is used to find only the 5 nearest neighbors to one movie. This produces a higher granularity for business decisions like where to build the latest ride in Disney Park. See the image below. 
+Using the same features, encoding and scaler; a KNN model is used to find only the 5 nearest neighbors to one movie. This produces a higher granularity for business decisions like where to build the latest ride in Disney Park. See the image below. 
 
 ![Item_Based_KNN](https://user-images.githubusercontent.com/93067732/163075912-e0767b43-964e-4101-ad1d-ea6bfd7db3de.gif)
 
@@ -208,11 +216,12 @@ Using the same features, encoding and scaler, a KNN model is used to find only t
 Grid Search uses a different combination of all the specified hyperparameters and their values and calculates the performance for each combination and selects the best value for the hyperparameters. GridSearchCV, along with Grid Search, cross-validation is also performed. Cross-Validation is used while training the model. As we know that before training the model with data, we divide the data into two parts – train data and test data. In cross-validation, the process divides the train data further into two parts – the train data and the validation data.
 We used GridSearchCV to find the best hyper parameters for the KNN model and also for the accuracy score KNN Classifier test. 
 
+
 ## Analysis
 
 ### Accuracy Score
 
-While it is not possible to compute accuracy score for unsupervised ML with K-Means Clustering and K-Nearest Neigbors as there are no ground truth labels to measure against. Therefore we have used the K-means cluster classes as the y prediction in order to produce an accuracy score metrics.
+While it is not possible to compute accuracy score for unsupervised ML with K-Means Clustering and K-Nearest Neigbors as there are no ground truth labels to measure against, we will still like to understand our ML model's performance. Therefore we have used the K-means cluster classes as the y prediction in order to produce an accuracy score metrics.
 
 Leave One Out Cross-Validation (LOOCV) is a type of cross-validation approach in which each observation is considered as the validation set and the rest (N-1) observations are considered as the training set. In LOOCV, fitting of the model is done and predicting using one observation validation set. Tt results in a reliable and unbiased estimate of model performance.
 

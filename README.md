@@ -95,20 +95,19 @@ Therefore, from week 3 onwards, we collected our data directly from the source w
 
 * **IMDb** - API
 * **Wikipedia** - Web scrape
-* **Movie lens** - research dataset from https://grouplens.org/datasets/movielens/
+* **MovieLens** - research dataset from https://grouplens.org/datasets/movielens/
 * **The numbers** - Tried scraping but the website blocked scraping since 2016, so just manually copied some datasets
 
 
-## Data Source (SUYIN)
+## Data Source
 
-loren ipsum
+As mentioned above, we source our data directly from IMDb, Wikipedia, the-numbers.com. We have also used the genres information from MovieLens. 
 
 ### Technical Flow Diagram
 
 ![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
-
-LOREN IPSUM
+First we collect all the data from the different sources indicated above either through API or web scraping method. Then the data is transformed and loaded into our Postgres database. This newly transformed dataset is then parsed to the K-Means Clustering Model and K-Nearest Neighbor Model. Finally the results are used in the Tableau visualisation. 
 
 ## Data Extract
 

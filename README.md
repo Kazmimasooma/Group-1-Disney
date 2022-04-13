@@ -134,17 +134,16 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 ### ERD
 
-The dataset is further normalised for SQL database. See below for a normalised database schema design. The full SQL schema code is available [SQL SCHEMA](#sql-schema)
+The dataset is further normalised for SQL database. See below for a normalised database schema design. The full SQL schema code is available at [SQL SCHEMA](#sql-schema)
 
 ![Disney ERD](https://user-images.githubusercontent.com/93067732/163077392-571dd0fa-b0d5-4fb2-bcb4-bd115ccc7954.png)
 
 
 ## Database
 
-Once the data is ready for database storage, we connect to Postgres with SQL Alchemy. Please see 
+Once the data is ready for database storage, we connect to Postgres with SQL Alchemy and send the tables to our database. Please see the images below.
 
-
-#### Connect to SQL
+### Connect to SQL
 
 ![SQLAlchemy_Sending_Data](https://user-images.githubusercontent.com/93067732/163075291-2ad3c097-312d-4012-97ad-c3bce89dcb07.png)
 
@@ -153,7 +152,7 @@ Once the data is ready for database storage, we connect to Postgres with SQL Alc
 ![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
 
 
-## Machine Learning (SUYIN)
+## Machine Learning
 
 ### Feature Engineering
 

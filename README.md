@@ -2,13 +2,24 @@
 
 ## Project Overview: 
 
-- In recent years the number of streaming sites has been increasing and with that we have access to an enormous amount of user data. 
-- We know a users watch history, movie ratings and what other similar movies or genres they like. 
-- Using this dataset, we want to predict user preferences and how to market certain products based on their interests. 
-- Our ML model will be providing recommendations based on Disney franchises. But can be used with other streaming datasets as well.
+Disney's primary source of revenue is movies and TV shows. Unfortunately this is not a sustainable model, as media has a very short lifespan when it comes to revenue. A new movie will at best provide income for a few months and then Disney moves on the next project.
+
+But what if we could extend that revenue lifespan. What if we could leverage the many Disney intellectual properties and continue to earn revenue for an extended amount of time after the initial movie release.
+
+Disney can release a variety of merchandise (Toys, Video games, Apparel, etc) tied to their movies. As well as making new Disney park attractions.
+These merchandise and attractions will provide Disney with a steady and predictable stream of revenue for a very long time.
+
+As such, we have created 2 ML models that help us understand how to generate ongoing revenue using the verticals mentioned.
+
 
 ## Why we selected this topic: 
-We can use our project in a variety of business scenarios: -
+When we looked at the revenue figures, it is very clear that the box office revenue is just the starting point in Disneys revenue.
+
+Revenue derived from merchadise sales and Disney park ticket is just as; if not more important.
+
+As this graph shows us that 
+
+
 ###### Product Placement in stores
 - Useful to companies like ToysRus, 
 Assumption:  users who like Lion King also likes Toy Story.  Then placing Lion King merchandise beside Toy Story merchandise will result in increased sales. Since both movies fall under Adventure genre, we can suggest ToysRus to include adventure themed merchandise (adventure board games, action figures) and not just dolls. The outcome can also help in planning the placements of merchabndising alongside and planning the store outlook.

@@ -86,6 +86,9 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 
 <img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
 
+#### Technical Flow Diagram
+
+![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
 ## Database (SUYIN)
 
@@ -95,9 +98,8 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 - GroupLens GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of       time, depending on the size of the set.
 - IMDB, the-numbers.com, Wikipedia & get the MovieLens movies.csv
 
+
 #### Data Expolration (TANZIM)
-
-
 
 #### Data Preparation / Data Retrieval plan / Assemble and Clean Data
 
@@ -107,9 +109,6 @@ https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/Di
 - Data Preparation
 - Data Specific Method: Content-based filtering
 - 
-#### Technical Flow Diagram
-
-![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
 ## Data Extract, Transform and Load
 

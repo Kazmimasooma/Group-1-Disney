@@ -184,6 +184,8 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 
 ### Accuracy Score
 
+While it is not possible to compute accuracy score for unsupervised ML with K-Means Clustering and K-Nearest Neigbors as there are no ground truth labels to measure against. Therefore we have used the K-means cluster classes as the y prediction in order to produce an accuracy score metrics.
+
 Leave One Out Cross-Validation (LOOCV) is a type of cross-validation approach in which each observation is considered as the validation set and the rest (N-1) observations are considered as the training set. In LOOCV, fitting of the model is done and predicting using one observation validation set. Tt results in a reliable and unbiased estimate of model performance.
 
 As our dataset consists of only 1391 movies, this method can be deployed. When the dataset grows beyond tens of thousands, we will need to use a less computationally expensive method for cross-validation. 

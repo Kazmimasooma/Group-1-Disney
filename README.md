@@ -186,7 +186,7 @@ In order for our ML model to process these features, we also need to encode and 
 
 After plotting and elbow curve with the features above, it is clear that there are **3 strong groups** within these movies with the **inertia / coefficient of 5.416e+3 or 5416 in decimal terms.** Please see below.
 
-![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
+ ![elbow_curve](Image/Elbow_Curve.gif)
 
 ### K-means Clustering Model
 
@@ -230,6 +230,7 @@ As our dataset consists of only 1391 movies, this method can be deployed. When t
 Using the same 4 features for the 2 ML models above, LOOCV is used to determine the accuracy of the K-means Cluster class. The results shown below that our model for K-means Cluster and K-Nearest Neigbor has an accuracy of **95.8%.**
 
  ![accuracy](Image/LOOCV_Accuracy_Score.png)
+
 
 ## Team Communication and Project Methodology
 

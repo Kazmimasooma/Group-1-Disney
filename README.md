@@ -42,11 +42,11 @@ Through the help of data and ML models we can make informed business decisions w
 
 #### Here are some ways ML can help us
 
-* Traditional and digital marketing can be targetted at specific groups making it more cost-efficient and effective
+* Traditional and digital marketings will be targetted at specific groups making it more cost-efficient and yield higher success rate.
 
-* When building new attractions at Disney World, we can pinpoint what type of ride it should be, should it be more thrilling like a rollercoaster or an easy going ride.
+* When building new attractions at Disney World, we now have a deeper understanding of what the target group prefers, example, a more thrilling rollercoaster ride versus an easy going one. 
 
-* We can also know where to place ride, example 'Toy Story' and 'Lion king' rides closer to each other. This will encourage more visitors to buy tickets for both the rides due to the close proximity.
+* We are able to build the rides at the right location, example 'Toy Story' and 'Lion king' rides closer to each other. This will encourage more visitors to buy tickets for both the rides due to the close proximity.
 
 * Since we know the closest movie neighbours we can use this information for product placement, example Lion King merchandise beside Toy Story merchandise, where customers are likely to buy both and ultimately increasing our merchandise sales.
 
@@ -60,8 +60,7 @@ Through the help of data and ML models we can make informed business decisions w
 
 ## Presentation
 
-We initiated the presentation data in Google slides.
-The presentation draft can be found in the following link below: 
+The presentation is available on Google Drive: 
 
 https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jwRu4/edit?usp=sharing
 
@@ -70,46 +69,41 @@ https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jw
 
 ### Tableau Dashboard
 
-We created Tableau to give following visualizations, which helped us with greater insights of data and also improve our presentation that can be easily understandable by the investors.  
+Tableau for greater insights into our findings.  
 
-The Tableau dashboard link is below:
-
-Disney's Revenue by Business Line - Dashboard:
+#### Disney's Revenue by Business Line - Dashboard
 
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneysRevenuebyBusinessLine-Dashboard/DisneysRevenuebyBusinessLineDashboard?publish=yes
 
 <img width="1174" alt="image" src="https://user-images.githubusercontent.com/93067732/161837263-029dc0b9-04d4-446a-a85d-b6f626b6b7b6.png">
 
 
-### The Tableau dashboard link is below
-
-Disney's Movies Revenue Dashboard:
+#### Disney's Movies Revenue Dashboard
 
 https://public.tableau.com/app/profile/akinfolarin8600/viz/DisneyRevenueStory/DisneyRevenueStory?publish=yes
 
 <img width="1103" alt="image" src="https://user-images.githubusercontent.com/93067732/161837388-9e4f60d2-5098-4e0d-bce9-2f559971bbc5.png">
 
 
-#### Data Exploration
+### Data Exploration
 
-##### WEEK 1 to WEEK 2
+#### WEEK 1 to WEEK 2
 Initially we scoured sites liked Kaggle.com for datasets and eventually decided on a few.
 
-We performed EDA on multiple datasets and found out they were filled with inconsistencies. Then we decided to scrap all our work and start over again.
+We performed EDA on multiple datasets and discovered high inconsistencies within the data.
 
 ![EDA v1](https://user-images.githubusercontent.com/93144225/163206164-8d0de522-edac-43fb-ad74-2e1754e5e481.png)
 
 
-##### WEEK 3 to WEEK 4
+#### WEEK 3 to WEEK 4
 
-We decided to start Web scraping instead of looking for better datasets. We used the following methods from the following websites:-
-
+When we could not find better datasets, we came to the executive decision to use API and webscraping to get latest and most accurate data. 
+We used the following methods from the following websites:-
 * **IMDb**- API
 * **Wikipedia**- Web scrape
 * **Movie lens**- Download dataset
-* **The numbers**- Tried scraping but the website blocked scraping from 2016, so just manually copied some datasets
+* **The numbers**- Tried scraping but the website blocked scraping since 2016, so just manually copied some datasets
 
-We cleaned up a few things and catered the dataset to our requirements and finalized everything. Tied up a few loose ends and deployed out dataset into our SQL database.
 
 ## Data Source (SUYIN)
 

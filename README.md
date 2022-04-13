@@ -21,6 +21,24 @@ As this graph shows us that 'Disney Studios Revenue' or the box office revenue i
 
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 
+
+#### How is our ML model helping us understand how to generate ongoing revenue using the verticals mentioned?
+
+Our ML models tells us how the movies are grouped (Movie clusters) and what their closest neighbours are.
+
+* Assume our first ML model says Toy story is the closest neighbour to Lion King and their genre and MPAA rating is “Adventure” and “Teen”
+
+* This tells us that our target audience are teenagers and above and they have an adventurous mindset.
+
+* As a result any merchandise or rides we make based on these movies have to be catered toward that demographic.
+
+* The rides have to be more thrilling instead of easy going, for e.g a rollercoaster
+
+* Same for the merchandise, instead of dolls we can go with action figures
+
+* Any video games would have to be adventure games instead of puzzle games
+
+
 ### Questions the team hopes to answer with the data
 
 * How are the movies grouped (Movie clusters)?
@@ -29,9 +47,6 @@ As this graph shows us that 'Disney Studios Revenue' or the box office revenue i
 ![image](https://user-images.githubusercontent.com/93144225/163098335-f3cb832c-d3d0-4d1a-b01b-3baf5b9ca96c.png)
 
 
-## Decomposing the Task
-
-Thinking from business point of view. Example of what our system can produce: -
 
 1. Customer Segmentation
 

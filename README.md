@@ -1,6 +1,4 @@
-# Group-1-Disney
-
-## Project Overview: 
+## Project Overview
 
 Disney's primary source of revenue is movies and TV shows. Unfortunately this is not a sustainable model, as media has a very short lifespan when it comes to revenue. A new movie will at best provide income for a few months and then Disney moves on the next project.
 
@@ -23,7 +21,7 @@ The charts below shows that 'Disney Studios Revenue' from movies is just one par
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 
 
-#### How will our ML model helps in generating ongoing revenue using the verticals mentioned?
+### How will our ML model helps in generating ongoing revenue using the verticals mentioned?
 
 Our ML models shows that movies grouping (or clusters) and their closest corresponding neighbours.
 
@@ -41,7 +39,7 @@ Our ML models shows that movies grouping (or clusters) and their closest corresp
 
 Through the help of data and ML models we can make informed business decisions which greatly mitigates risk and increases our probability of success. 
 
-#### Here are some ways ML can help us
+### Here are some ways ML can help us
 
 * Traditional and digital marketings will be targetted at specific groups making it more cost-efficient and yield higher success rate.
 
@@ -110,14 +108,14 @@ We used the following methods from the following websites:-
 
 loren ipsum
 
-#### Technical Flow Diagram
+### Technical Flow Diagram
 
 ![Disney_Techical_Diagram](https://user-images.githubusercontent.com/93067732/161170074-14f3234e-5f84-410b-b2b8-eabd703e5680.png)
 
 
 ## Database (SUYIN)
 
-#### Description of the Data
+### Description of the Data
 
 - kaggle.com Walt Disney Movies Walt Disney Movie dataset
 - GroupLens GroupLens Research has collected and made available rating data sets from the MovieLens web site ( The data sets were collected over various periods of       time, depending on the size of the set.
@@ -133,7 +131,7 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 ![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
 
-## ERD 
+### ERD 
 
 ![Disney ERD](https://user-images.githubusercontent.com/93067732/163077392-571dd0fa-b0d5-4fb2-bcb4-bd115ccc7954.png)
 
@@ -141,7 +139,7 @@ With the newly scraped data from IMDB, we were able to use imdbId as our Primary
 
 ![SQLAlchemy_Sending_Data](https://user-images.githubusercontent.com/93067732/163075291-2ad3c097-312d-4012-97ad-c3bce89dcb07.png)
 
-## SQL
+### SQL Join
 
 ![Database_SQL_Join](https://user-images.githubusercontent.com/93067732/163075178-8634b72d-a200-453c-ae94-6442baf200a0.png)
 
@@ -204,19 +202,19 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 
 ### Recommendation for future analysis
 
-* Scrape User data from IMDB (User ratings and total number of votes), this will allow us to create a User recommendation fetature
+* Get user data from IMDB (user ratings and reviews), this will allow us to create a User Recommendation System
 
-* Get Merchandise revenue datasets (Toys, Video games, Apparel sales). This would strenthen our analysis and help us compare revenues more effectively.
+* Get merchandise revenue datasets (toys, video games, apparel sales). This would strenthen our analysis and help us compare revenues more effectively.
 
-* Build a Sentiment analysis system using NLP (Neural language processing) for all reviews left by users. We did start work on this but due to time constraints could not finish. This would help us analize all reviews in a more in depth manner.
+* Build a Sentiment Analysis System using Natural Language Processing (NLP) for all Disney Park reviews. Due to time constraint, we could not finish this part of the project that we started. The ML model here will give us a 360 understanding of our Disney Parks and improve on any potential shortcomings or problems. 
+* 
 
 ### Anything the team would have different
 
-* Instaed of wasting 2 weeks on Kaggle datasets and EDA, if we web scraped from the beginning we would have a lot more time to implement additional ML models.
+* Instead of wasting 2 weeks on Kaggle datasets and EDA, if we had started with API and web scraping, we would have a lot more time to implement additional ML models.
 
-* If we had the extra time we would be able to implement a User Recommendation system.
+* The time saved from previous point will be used to complete our NLP model on Disney Park reviews. 
 
-* In addition, we would be able to implement the Sentiment Analysis system for all user reviews.
 
 ## Appendix
 

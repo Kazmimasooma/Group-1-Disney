@@ -214,7 +214,19 @@ K Nearest Neighbour (KNN) algorithm can be used for both classification and regr
 
 ### Recommendation for future analysis
 
+* Scrape User data from IMDB (User ratings and total number of votes), this will allow us to create a User recommendation fetature
+
+* Get Merchandise revenue datasets (Toys, Video games, Apparel sales). This would strenthen our analysis and help us compare revenues more effectively.
+
+* Build a Sentiment analysis system using NLP (Neural language processing) for all reviews left by users. We did start work on this but due to time constraints could not finish. This would help us analize all reviews in a more in depth manner.
+
 ### Anything the team would have different
+
+* Instaed of wasting 2 weeks on Kaggle datasets and EDA, if we web scraped from the beginning we would have a lot more time to implement additional ML models.
+
+* If we had the extra time we would be able to implement a User Recommendation system.
+
+* In addition, we would be able to implement the Sentiment Analysis system for all user reviews.
 
 ## Appendix
 

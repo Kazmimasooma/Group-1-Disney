@@ -19,6 +19,9 @@ Revenue derived from merchadise sales and Disney park ticket is just as; if not 
 
 As this graph shows us that 
 
+![image](https://user-images.githubusercontent.com/93144225/163092339-5c25986b-40ab-4578-972a-15a2b3582630.png)
+
+
 
 ###### Product Placement in stores
 - Useful to companies like ToysRus, 

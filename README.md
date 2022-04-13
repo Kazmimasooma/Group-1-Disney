@@ -96,10 +96,10 @@ We performed EDA on multiple datasets and discovered high inconsistencies within
 
 When we could not find better datasets, we came to the executive decision to use API and webscraping to get latest and most accurate data. 
 We used the following methods from the following websites:-
-* **IMDb**- API
-* **Wikipedia**- Web scrape
-* **Movie lens**- Download dataset
-* **The numbers**- Tried scraping but the website blocked scraping since 2016, so just manually copied some datasets
+* **IMDb** - API
+* **Wikipedia** - Web scrape
+* **Movie lens** - Download dataset
+* **The numbers** - Tried scraping but the website blocked scraping since 2016, so just manually copied some datasets
 
 
 ## Data Source (SUYIN)

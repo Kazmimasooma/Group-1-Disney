@@ -114,20 +114,35 @@ First we collect all the data from the different sources indicated above either 
 We decided to pivot and made the decision to use API and web scrape for the information from IMDd and Wikipedia for the most comprehensive and latest dataset.
 With the newly scraped data from IMDB, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof as imdbId will match IMDB database whenever we scrape for new information from IMDB in the future therfore eliminating potential data duplication. This way, the data integrity is preserved. 
 
-![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
-
 
 ### Description of the Data
 
-LOREN IPSUM
+![IMDB_scrape_code_snippet (1)](https://user-images.githubusercontent.com/93067732/163074976-bee17d7d-3d22-44f0-be28-33b509cced4b.png)
+
+#### Information Collected
+
+* IMDb: Titles, Release Date, Metascore, Grammy Awards, Directors, Actors, Languages, Countries, IMDBRatings, IMDBVotes, Genres.
+* Wikipedia: Actors / Voice Actors, Directors, Disney Group Revenues (Disney Parks, Disney Merchandise, Disney Interactive, Disney Studios)
+* MovieLens: Titles, Genres
+* The-numbers.com:  Titles, Box Office Total Gross, Budget
 
 ## Data Transformation and Load
 
-## Database (SUYIN)
+1. The biggest bulk of work in this segment was transforming and aligning all the titles discrepencies with Regular Expression. 
+2. From the numerous datasets above, we combined and filled NULL values from different sources in order to enable all the Disney movies to have as much information as possible and reduce NaN in all columns.
+3. The chosen data is then cleaned further and cast to their type for database. 
 
-### ERD 
+### ERD
+
+The dataset is further normalised for SQL database. See below for a normalised database schema design. The full SQL schema code is available [SQL SCHEMA](#sql-schema)
 
 ![Disney ERD](https://user-images.githubusercontent.com/93067732/163077392-571dd0fa-b0d5-4fb2-bcb4-bd115ccc7954.png)
+
+
+## Database
+
+Once the data is ready for database storage, we connect to Postgres with SQL Alchemy. Please see 
+
 
 #### Connect to SQL
 

@@ -122,7 +122,7 @@ With the new data from IMDb, we were able to use imdbId as our Primary Key and F
 
 The data below spans from _**1937 to 2021**_.
 
-* IMDb: Titles, Release Date, Metascore, Grammy Awards, Directors, Actors, Languages, Countries, IMDBRatings, IMDBVotes, Genres.
+* IMDb: Titles, Release Date, Rated, Metascore, Grammy Awards, Directors, Actors, Languages, Countries, IMDBRatings, IMDBVotes, Genres, imdbId
 * Wikipedia: Actors / Voice Actors, Directors, Disney Group Revenues (Disney Parks, Disney Merchandise, Disney Interactive, Disney Studios)
 * MovieLens: Titles, Genres
 * The-numbers.com:  Titles, Box Office Total Gross, Budget

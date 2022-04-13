@@ -194,7 +194,9 @@ In order for our ML model to process these features, we also need to encode and 
 3. IMDB Average Rating - **MinMaxScaler**
 4. IMDB Total Votes - **MinMaxScaler**
 
-We intend to use a Unsupervised Machine Learning model, specifically K-means clustering. We have a couple of questions to answer using the ML model, and know that by using historical data, we will see a relationship between a movies, user data, revenue etc to predict the user preference trends. 
+#### Elbow curve
+
+![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
 
 ### K-means Clustering Model
 
@@ -203,10 +205,6 @@ We intend to use a Unsupervised Machine Learning model, specifically K-means clu
 
 #### Analysis & Visualization
 While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been cluster together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
-
-#### Elbow curve
-
-![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
 
 
 ### Nearest Neighbour

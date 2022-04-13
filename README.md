@@ -17,7 +17,7 @@ When we looked at the revenue figures, it is very clear that the box office reve
 
 Revenues derived from franchises, collaborations merchandise sales and Disney Parks are just as important.
 
-The charts below shows that 'Disney Studios Revenue' from movies is just one part of the equation. Revenues generated from the other business groups have exponentially grown over the years and helps Disney diversify its revenue portfolio. This in turn creates a longer, more reliable and sustainable revenue model.
+The charts below shows that 'Disney Studios Revenue' from movies is just one part of the equation. Revenues generated from the other business groups have exponentially grown over the years and helps Disney diversify its revenues portfolio. This in turn creates a longer, more reliable and sustainable revenue model.
 
 <img width="1115" alt="Disney's Revenue" src="https://user-images.githubusercontent.com/93144225/163092473-01a3892c-6413-4e2e-9df3-3f9543282196.png">
 
@@ -30,28 +30,30 @@ Our ML models shows that movies grouping (or clusters) and their closest corresp
 
 	* This tells us that our target audience are teenagers and older witn an adventurous mindset.
 
-		* As a result any merchandise or rides we make based on these movies have to be catered toward that demographic.
+		* As a result any merchandise or rides we make based on these movies have to be catered towards that demographic.
 
-		* The rides have to be more thrilling instead of easy going, for e.g a rollercoaster
+			* The rides will be more thrilling like rollercoaster, instead of an easy ride.
 
-		* Same for the merchandise, instead of dolls we can go with action figures
+			* The merchandise will action figures, instead of dolls. 
 
-		* Any video games would have to be adventure games instead of puzzle games
+			* Potential new video games will be adventure games, instead of puzzle games.
 
-Through the help of data and ML models we can make informed business decisions which greatly mitigates our risk factor. Here are some ways ML can help us:-
+Through the help of data and ML models we can make informed business decisions which greatly mitigates risk and increases our probability of success. 
 
-* Marketing can be targetted at specific groups of customers making it more efficient and effective
+#### Here are some ways ML can help us
 
-* When building new attractions at Disney World, we can pinpoint what type of ride it should be (Should it be more thrilling like a rollercoaster or an easy going ride)
+* Traditional and digital marketing can be targetted at specific groups making it more cost-efficient and effective
 
-* We can also know where to place rides (Eg. We can put 'Toy Story' and 'Lion king' rides closer to each other). This will encourage more visitors to buy tickets for both the rides as they are at a close proximity.
+* When building new attractions at Disney World, we can pinpoint what type of ride it should be, should it be more thrilling like a rollercoaster or an easy going ride.
 
-* Since we know the closest movie neighbours we can use this information for merchandise placement. For example, Lion King merchandise beside Toy Story merchandise, making it more likely for customers to buy both toys.
+* We can also know where to place ride, example 'Toy Story' and 'Lion king' rides closer to each other. This will encourage more visitors to buy tickets for both the rides as they are at a close proximity.
+
+* Since we know the closest movie neighbours we can use this information for product placement, example Lion King merchandise beside Toy Story merchandise, where customers are likely to buy both and ultimately increasing our merchandise sales.
 
 ### Questions the team hopes to answer with the data
 
-1. How are the movies grouped (Movie clusters)?
-2. What are the closest neighbours to the movies?
+1. How are the movies grouped and what kind of similarities pattern do they exhibit?
+2. Which movies are closely grouped together, indicated by a certain granularity.
 
 ![image](https://user-images.githubusercontent.com/93144225/163098335-f3cb832c-d3d0-4d1a-b01b-3baf5b9ca96c.png)
 

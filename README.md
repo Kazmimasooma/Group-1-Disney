@@ -38,6 +38,15 @@ Our ML models tells us how the movies are grouped (Movie clusters) and what thei
 
 * Any video games would have to be adventure games instead of puzzle games
 
+Through the help of data and ML models we can make informed business decisions which greatly mitigates our risk factor. Here are some ways ML can help us:-
+
+* Marketting can be targetted at specific groups of customers making it more efficient and effective
+
+* When building new attractions at Disney World, we can pinpoint what type of ride it should be (Should it be more thrilling like a rollercoaster or an easy going ride)
+
+* We can also know where to place rides (Eg. We can put 'Toy Story' and 'Lion king' rides next to each other). This will encourage more visitors to buy tickets for both the rides as they are at a close proximity.
+
+* Since we know the closest movie neighbours we can use this information for merchandise placement. Eg: Lion King merchandise beside Toy Story merchandise, making it more likely for customers to buy both toys.
 
 ### Questions the team hopes to answer with the data
 
@@ -47,25 +56,12 @@ Our ML models tells us how the movies are grouped (Movie clusters) and what thei
 ![image](https://user-images.githubusercontent.com/93144225/163098335-f3cb832c-d3d0-4d1a-b01b-3baf5b9ca96c.png)
 
 
-
-1. Customer Segmentation
-
-* With the data we have, we can “discover” user preferences and toys sales, and therefore use this information for ToysRus toy product placement. Eg: Lion King merchandise beside Toy Story merchandise as we discovered that people who like Lion King also like Toy Story. If the genre is both “Adventure”, then we can also suggest that the toy merchandise include something like “adventure game” and not just soft toys.
-
-* With the customer segmentation, Disney new releases can be advertised on IMDB & Rotten Tomatoes to "look alike" customers. Therefore, Disney is spending the marketing ads funds in a targeted manner.
-
-* Disney Park Revenue: - the same can be said about park. Fast pass for Lion King & Toy Story as the same people like both movies. OR let’s say both are under “Adventure” genre, then we can say, the new Toy Story in Disney Park should be an adventure ride and not like “It’s A Small World” ride.
-
-* Disney Park Revenue: - We can use our dataset to make informed decisions about the Disney Park rides. We can put Lion King & Toy Story themed rides beside each other. In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous demographic.
-
-
-
 ## Presentation
 
 We initiated the presentation data in Google slides.
 The presentation draft can be found in the following link below: 
 
-https://docs.google.com/presentation/d/1bXQ0Cq8p2YGSmovvJoc0RRNRafFfXTP-7OJgANwXNB8/edit
+https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jwRu4/edit?usp=sharing
 
 
 ## Data analysis and visualization (AKIN)
@@ -135,15 +131,6 @@ In order for our ML model to process these features, we also need to encode and 
 3. IMDB Average Rating - **MinMaxScaler**
 4. IMDB Total Votes - **MinMaxScaler**
 
-
-## Team Communication and Project Methodology
-
-- Team Slack Channel
-- Individual Slack Chat
-- WhatsApp group
-- Google Share Drive
-- Zoom meetings
-- Agile - Scrum
 
 ## Database: 
 
@@ -232,3 +219,16 @@ CREATE TABLE gross_revenue (
 	inflation_adjusted_gross int   NOT NULL
 	);
 
+
+## Team Communication and Project Methodology
+
+- Team Slack Channel
+- Individual Slack Chat
+- WhatsApp group
+- Google Share Drive
+- Zoom meetings
+- Agile - Scrum
+
+## Conclusion
+
+### Recommendation for future analysis

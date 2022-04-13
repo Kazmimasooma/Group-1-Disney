@@ -64,7 +64,7 @@ The presentation is available on Google Drive:
 https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jwRu4/edit?usp=sharing
 
 
-## Data analysis and visualization (AKIN)
+## Data Analysis and Visualization (AKIN)
 
 ### Tableau Dashboard
 
@@ -164,6 +164,8 @@ From the final dataset collected, we have selected these 4 values as our input f
 3. IMDB Average Rating
 4. IMDB Total Votes (which shows how many people have rated a movie)
 
+While we could also include other features like Actors, Awards and Directors; these features do not have longer consistency as sometimes these people have either retired or passed away. These features can be important if our dataset is larger in the tens of thousands or millions. 
+
 #### Features Preprocessing - Binning
 
 Firstly, the dataset we have is imbalance and noisy. Therefore during data preprocessing stage, the outliers were binned for better performance.
@@ -180,16 +182,18 @@ In order for our ML model to process these features, we also need to encode and 
 
 ### Elbow curve
 
+After plotting and elbow curve with the features above, it is clear that there are **3 strong groups** within these movies with the **inertia / coefficient of 5.416e+3 or 5416 in decimal terms.** Please see below.
+
 ![Elbow_Curve_Inertia](https://user-images.githubusercontent.com/93067732/163075460-8d1be328-fded-4476-9317-9ec77114b972.png)
 
 ### K-means Clustering Model
 
+As indicated, the K-means Cluster model is generated with **K=3** as seen below. 
+
 ![K-Means Clustering](https://user-images.githubusercontent.com/93067732/163075597-9096c509-6624-4a32-9ad1-fab52de665be.gif)
 
-
-#### Analysis & Visualization
-While we have completed our first ML model using K-means clustering, while it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been clustered together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
-
+With this, we have completed our first ML model using K-means clustering. 
+While it fulfills what we need, one of the drawback of K-Means Cluster is the inability to understand why the different movies have been clustered together. Therefore we have decided to add another ML model to support and strengthen our initial K-means Cluster model. 
 
 ### Nearest Neighbour
 K Nearest Neighbour (KNN) algorithm can be used for both classification and regression problems. The KNN algorithm uses ‘feature similarity’ to predict the values of any new data points.
@@ -203,6 +207,8 @@ Using the same features, encoding and scaler, a KNN model is used to find only t
 
 Grid Search uses a different combination of all the specified hyperparameters and their values and calculates the performance for each combination and selects the best value for the hyperparameters. GridSearchCV, along with Grid Search, cross-validation is also performed. Cross-Validation is used while training the model. As we know that before training the model with data, we divide the data into two parts – train data and test data. In cross-validation, the process divides the train data further into two parts – the train data and the validation data.
 We used GridSearchCV to find the best hyper parameters for the KNN model and also for the accuracy score KNN Classifier test. 
+
+## Analysis
 
 ### Accuracy Score
 

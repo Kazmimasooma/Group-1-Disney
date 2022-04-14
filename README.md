@@ -251,6 +251,10 @@ Using the same 4 features for the 2 ML models above, LOOCV is used to determine 
 * Build a Sentiment Analysis System using Natural Language Processing (NLP) for all Disney Park reviews. Due to time constraint, we could not finish this part of the project that we started. The ML model here will give us a 360 understanding of our Disney Parks and improve on any potential shortcomings or problems. 
 
 
+### Anything the team would have different
 
+* Instead of wasting 2 weeks on Kaggle datasets and EDA, if we had started with API and web scraping, we would have a lot more time to implement additional ML models.
+
+* The time saved from previous point will be used to complete our NLP model on Disney Park reviews. 
 
 

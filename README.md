@@ -64,7 +64,7 @@ The presentation is available on Google Drive:
 https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jwRu4/edit?usp=sharing
 
 
-## Data Analysis and Visualization (AKIN)
+## Data Analysis and Visualization
 
 ### Tableau Dashboard
 

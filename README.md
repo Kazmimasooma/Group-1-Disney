@@ -20,11 +20,11 @@ Assumption:  If a particular cluster of customers love the adventure genre, we c
 - We can put Lion King & Toy Story themed rides beside each other. 
 - In addition, as the movie genre was adventure. The rides can be designed to be more thrilling instead of easy going, as they will appeal more to an adventurous demographic.
 
-## Decomposing the Task
+## Decomposing the Task: 
 
 Thinking from business point of view. Example of what our system can produce: -
 
-1. Customer Segmentation
+1. Customer Segmentation: 
 
 * With the data we have, we can “discover” user preferences and toys sales, and therefore use this information for ToysRus toy product placement. Eg: Lion King merchandise beside Toy Story merchandise as we discovered that people who like Lion King also like Toy Story. If the genre is both “Adventure”, then we can also suggest that the toy merchandise include something like “adventure game” and not just soft toys.
 

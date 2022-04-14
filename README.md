@@ -184,7 +184,7 @@ In order for our ML model to process these features, we also need to encode and 
 
 ### Elbow curve
 
-After plotting and elbow curve with the features above, it is clear that there are **3 strong groups** within these movies with the **inertia / coefficient of 4.194e+3 or 4194 in decimal terms.** One of the biggest drawback of this model is the random starting point of the centroids therefore every time this model is executed, the inertia can be a different. However the K remains consistent at 3. Please see below.
+After plotting an elbow curve with the features above, it is clear that there are **3 strong groups** within these movies with the **inertia / coefficient of 4.194e+3 or 4194 in decimal terms.** One of the biggest drawback of this model is the random starting point of the centroids therefore every time this model is executed, the inertia can be a different. However the K remains consistent at 3. Please see below.
 
  ![elbow_curve](Image/Elbow_Curve.gif)
 

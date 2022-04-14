@@ -111,7 +111,7 @@ First we collect all the data from the different sources indicated above either 
 
 ## Data Extract
 
-We decided to pivot and decided to use API and web scrape from IMDd and Wikipedia for the most comprehensive and latest dataset.
+We decided to pivot to using API and web scrape from IMDd and Wikipedia for the latest most comprehensive dataset.
 With the new data from IMDb, we were able to use imdbId as our Primary Key and Foreign Key. This is also future proof our stored data as imdbId will always match IMDB database whenever we update new information from IMDB, thus eliminating potential data duplication. This way, the data integrity will always be preserved. 
 
 ### Description of the Data

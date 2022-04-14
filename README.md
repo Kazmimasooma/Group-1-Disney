@@ -213,15 +213,14 @@ Using the same features, encoding and scaler; a KNN model is used to find only t
 
 ### Hyper Parameter Tuning
 
-Grid Search uses a different combination of all the specified hyperparameters and their values and calculates the performance for each combination and selects the best value for the hyperparameters. GridSearchCV, along with Grid Search, cross-validation is also performed. Cross-Validation is used while training the model. As we know that before training the model with data, we divide the data into two parts – train data and test data. In cross-validation, the process divides the train data further into two parts – the train data and the validation data.
+Grid Search uses a different combination of all the specified hyperparameters and their values and calculates the performance for each combination and selects the best value for the hyperparameters. GridSearchCV has all the capabilities of Grid Search and also includes cross-validation. Cross-Validation is used while training the model. As we know that before training the model with data, we divide the data into two parts – train data and test data. In cross-validation, the process divides the train data further into two parts – the train data and the validation data.
 We used GridSearchCV to find the best hyper parameters for the KNN model and also for the accuracy score KNN Classifier test. 
-
 
 ## Analysis
 
 ### Accuracy Score
 
-While it is not possible to compute accuracy score for unsupervised ML with K-Means Clustering and K-Nearest Neigbors as there are no ground truth labels to measure against, we will still like to understand our ML model's performance. Therefore we have used the K-means cluster classes as the y prediction in order to produce an accuracy score metrics.
+While it is not possible to compute accuracy score for unsupervised ML with K-Means Clustering and K-Nearest Neigbors as there are no ground truth labels to measure against, we will still like to understand our ML models' performance. Therefore we have used the K-means cluster classes as the y prediction in order to produce an accuracy score metrics.
 
 Leave One Out Cross-Validation (LOOCV) is a type of cross-validation approach in which each observation is considered as the validation set and the rest (N-1) observations are considered as the training set. In LOOCV, fitting of the model is done and predicting using one observation validation set. Tt results in a reliable and unbiased estimate of model performance.
 

@@ -61,7 +61,7 @@ Through the help of data and ML models we can make informed business decisions w
 
 The presentation is available on Google Drive: 
 
-https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jwRu4/edit?usp=sharing
+https://docs.google.com/presentation/d/1gSYWireJf50b5sNvhDKRBgWYFzsNaZfnyKBFj-jwRu4/edit?usp=sharing  
 
 
 ## Data Analysis and Visualization

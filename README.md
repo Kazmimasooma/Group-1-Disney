@@ -187,3 +187,4 @@ We’ll analyze many different independent Y variables or features that our mode
 - Zoom meetings
 - Agile - Scrum. 
 
+## Issues Encountered in Data ETL Process

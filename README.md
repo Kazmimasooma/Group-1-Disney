@@ -302,4 +302,5 @@ CREATE TABLE gross_revenue (
 	);
 
 
-
+## Acknowledgment
+Special thanks to our mentors Akshat and Nick for thier support and guidance. 

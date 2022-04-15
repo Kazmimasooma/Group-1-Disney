@@ -301,6 +301,3 @@ CREATE TABLE gross_revenue (
 	inflation_adjusted_gross int   NOT NULL
 	);
 
-
-## Acknowledgment
-Special thanks to our mentors Akshat and Nick for thier support and guidance. 

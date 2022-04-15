@@ -262,7 +262,7 @@ Using the same 4 features for the 2 ML models above, LOOCV is used to determine 
 
 #### SQL SCHEMA
 
-```
+
 CREATE TABLE movies (
 	imdb_id varchar   NOT NULL PRIMARY KEY,
 	title varchar   NOT NULL,
@@ -300,6 +300,4 @@ CREATE TABLE gross_revenue (
 	total_gross int   NOT NULL,
 	inflation_adjusted_gross int   NOT NULL
 	);
-```
-
 

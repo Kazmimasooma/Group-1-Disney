@@ -260,44 +260,5 @@ Using the same 4 features for the 2 ML models above, LOOCV is used to determine 
 
 ## Appendix
 
-#### SQL SCHEMA
 
-```
-CREATE TABLE movies (
-	imdb_id varchar   NOT NULL PRIMARY KEY,
-	title varchar   NOT NULL,
-	year int   NOT NULL,
-	rated varchar   NOT NULL,
-	released date   NOT NULL,
-	runtime int   NOT NULL,
-	imdb_rating float   NOT NULL,
-	imdb_votes int   NOT NULL,
-	genres varchar   NOT NULL
-	);
 
-CREATE TABLE language_country (
-	lc_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	language archer   NOT NULL,
-	country varchar   NOT NULL
-	);
-
-CREATE TABLE awards (
-	awards_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	awards archer   NOT NULL
-	);
-
-CREATE TABLE metascore (
-	ms_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	metascore varchar   NOT NULL
-	);
-
-CREATE TABLE gross_revenue (
-	rev_id varchar   NOT NULL PRIMARY KEY,
-	imdb_id varchar   REFERENCES movies (imdb_id),
-	total_gross int   NOT NULL,
-	inflation_adjusted_gross int   NOT NULL
-	);
-```
